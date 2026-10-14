@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <title>雨後陽光照耀，小蒲長成一棵開著黃花的新蒲公英，頭上又冒出白白的毛球。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/>
+      <stop offset="1" stop-color="#fff8e1"/>
+    </linearGradient>
+    <g id="seed">
+      <path d="M0 -8 L0 -40" stroke="#c9b48a" stroke-width="2"/>
+      <g stroke-linecap="round" fill="none">
+        <path d="M0 -40 L-24 -54 M0 -40 L-16 -64 M0 -40 L-5 -70 M0 -40 L5 -70 M0 -40 L16 -64 M0 -40 L24 -54" stroke="#d3dce8" stroke-width="4"/>
+        <path d="M0 -40 L-24 -54 M0 -40 L-16 -64 M0 -40 L-5 -70 M0 -40 L5 -70 M0 -40 L16 -64 M0 -40 L24 -54" stroke="#ffffff" stroke-width="2"/>
+      </g>
+      <g fill="#ffffff" stroke="#d3dce8">
+        <circle cx="-24" cy="-54" r="4"/><circle cx="-16" cy="-64" r="4"/><circle cx="-5" cy="-70" r="4"/>
+        <circle cx="5" cy="-70" r="4"/><circle cx="16" cy="-64" r="4"/><circle cx="24" cy="-54" r="4"/>
+      </g>
+      <ellipse cx="0" cy="6" rx="12" ry="16" fill="#b07a52"/>
+      <ellipse cx="-4" cy="0" rx="3" ry="5" fill="#c99470"/>
+      <circle cx="-4.5" cy="5" r="2" fill="#3b2a1f"/>
+      <circle cx="4.5" cy="5" r="2" fill="#3b2a1f"/>
+      <circle cx="-7.5" cy="10" r="2.2" fill="#f4a3a3"/>
+      <circle cx="7.5" cy="10" r="2.2" fill="#f4a3a3"/>
+      <path d="M-3 11 Q0 14 3 11" stroke="#3b2a1f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <!-- 太陽 -->
+  <circle cx="340" cy="60" r="30" fill="#ffd84d"/>
+  <g stroke="#ffd84d" stroke-width="4" stroke-linecap="round">
+    <path d="M340 14 L340 22 M340 98 L340 106 M294 60 L302 60 M378 60 L386 60 M307 27 L313 33 M367 87 L373 93 M373 27 L367 33 M307 93 L313 87"/>
+  </g>
+  <!-- 彩虹 -->
+  <g fill="none" stroke-width="7" opacity="0.55">
+    <path d="M10 200 A110 110 0 0 1 230 200" stroke="#ff9e9e"/>
+    <path d="M18 200 A102 102 0 0 1 222 200" stroke="#ffd36e"/>
+    <path d="M26 200 A94 94 0 0 1 214 200" stroke="#9fd98a"/>
+    <path d="M34 200 A86 86 0 0 1 206 200" stroke="#8ccaf5"/>
+  </g>
+  <!-- 剩下的雨滴 -->
+  <g fill="#7cc8f2">
+    <path d="M70 50 q6 10 0 15 q-6 -5 0 -15 Z"/>
+    <path d="M260 34 q6 10 0 15 q-6 -5 0 -15 Z"/>
+    <path d="M140 30 q6 10 0 15 q-6 -5 0 -15 Z"/>
+  </g>
+  <!-- 草地與泥土 -->
+  <rect x="0" y="212" width="400" height="88" fill="#a8774f"/>
+  <path d="M0 212 Q100 200 200 212 T400 210 L400 224 L0 224 Z" fill="#86cf6f"/>
+  <g fill="#c08d62">
+    <circle cx="60" cy="255" r="4"/><circle cx="320" cy="270" r="5"/><circle cx="120" cy="285" r="3"/>
+  </g>
+  <!-- 根 -->
+  <g stroke="#f3e3c3" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M200 222 Q198 250 205 288"/>
+    <path d="M201 240 Q185 255 175 272"/>
+    <path d="M203 254 Q220 264 228 280"/>
+  </g>
+  <!-- 莖與葉 -->
+  <path d="M200 216 Q195 160 205 112" stroke="#5ea844" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M198 216 Q150 206 135 176 Q175 186 198 206 Z" fill="#6fbf5a"/>
+  <path d="M202 216 Q255 201 268 169 Q228 183 202 206 Z" fill="#6fbf5a"/>
+  <path d="M201 175 Q235 160 258 160" stroke="#5ea844" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- 黃花：小蒲長大了 -->
+  <g transform="translate(205 92)">
+    <g fill="#ffcf33">
+      <ellipse cx="0" cy="-24" rx="9" ry="14"/>
+      <ellipse cx="0" cy="24" rx="9" ry="14"/>
+      <ellipse cx="-24" cy="0" rx="14" ry="9"/>
+      <ellipse cx="24" cy="0" rx="14" ry="9"/>
+      <ellipse cx="-17" cy="-17" rx="9" ry="13" transform="rotate(-45 -17 -17)"/>
+      <ellipse cx="17" cy="17" rx="9" ry="13" transform="rotate(-45 17 17)"/>
+      <ellipse cx="17" cy="-17" rx="9" ry="13" transform="rotate(45 17 -17)"/>
+      <ellipse cx="-17" cy="17" rx="9" ry="13" transform="rotate(45 -17 17)"/>
+    </g>
+    <circle r="16" fill="#ffb627"/>
+    <circle cx="-4.5" cy="-1" r="2" fill="#3b2a1f"/>
+    <circle cx="4.5" cy="-1" r="2" fill="#3b2a1f"/>
+    <circle cx="-8" cy="4" r="2.2" fill="#f48a8a"/>
+    <circle cx="8" cy="4" r="2.2" fill="#f48a8a"/>
+    <path d="M-3 5 Q0 8 3 5" stroke="#3b2a1f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 新的毛球 -->
+  <circle cx="270" cy="140" r="22" fill="#ffffff" stroke="#d3dce8" stroke-width="2"/>
+  <g stroke="#d3dce8" stroke-width="1.5">
+    <path d="M270 140 L270 120 M270 140 L288 130 M270 140 L288 152 M270 140 L256 156 M270 140 L252 128"/>
+  </g>
+  <!-- 種子寶寶出發 -->
+  <use xlink:href="#seed" href="#seed" transform="translate(315 150) scale(0.45) rotate(15)"/>
+  <use xlink:href="#seed" href="#seed" transform="translate(348 178) scale(0.4) rotate(25)"/>
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M290 192 Q310 185 330 191"/>
+  </g>
+</svg>

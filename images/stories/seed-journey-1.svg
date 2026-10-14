@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <title>草地上有一棵蒲公英，頂著白白的毛球，小種子小蒲正揮手準備出發。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/>
+      <stop offset="1" stop-color="#eaf7ff"/>
+    </linearGradient>
+    <g id="seed">
+      <path d="M0 -8 L0 -40" stroke="#c9b48a" stroke-width="2"/>
+      <g stroke-linecap="round" fill="none">
+        <path d="M0 -40 L-24 -54 M0 -40 L-16 -64 M0 -40 L-5 -70 M0 -40 L5 -70 M0 -40 L16 -64 M0 -40 L24 -54" stroke="#d3dce8" stroke-width="4"/>
+        <path d="M0 -40 L-24 -54 M0 -40 L-16 -64 M0 -40 L-5 -70 M0 -40 L5 -70 M0 -40 L16 -64 M0 -40 L24 -54" stroke="#ffffff" stroke-width="2"/>
+      </g>
+      <g fill="#ffffff" stroke="#d3dce8">
+        <circle cx="-24" cy="-54" r="4"/><circle cx="-16" cy="-64" r="4"/><circle cx="-5" cy="-70" r="4"/>
+        <circle cx="5" cy="-70" r="4"/><circle cx="16" cy="-64" r="4"/><circle cx="24" cy="-54" r="4"/>
+      </g>
+      <ellipse cx="0" cy="6" rx="12" ry="16" fill="#b07a52"/>
+      <ellipse cx="-4" cy="0" rx="3" ry="5" fill="#c99470"/>
+      <circle cx="-4.5" cy="5" r="2" fill="#3b2a1f"/>
+      <circle cx="4.5" cy="5" r="2" fill="#3b2a1f"/>
+      <circle cx="-7.5" cy="10" r="2.2" fill="#f4a3a3"/>
+      <circle cx="7.5" cy="10" r="2.2" fill="#f4a3a3"/>
+      <path d="M-3 11 Q0 14 3 11" stroke="#3b2a1f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <circle cx="345" cy="55" r="30" fill="#ffe27a"/>
+  <circle cx="345" cy="55" r="40" fill="#ffe27a" opacity="0.3"/>
+  <ellipse cx="90" cy="60" rx="40" ry="16" fill="#ffffff"/>
+  <ellipse cx="115" cy="50" rx="24" ry="14" fill="#ffffff"/>
+  <path d="M0 220 Q100 180 200 210 T400 200 L400 300 L0 300 Z" fill="#9fdc8a"/>
+  <path d="M0 250 Q120 230 240 250 T400 245 L400 300 L0 300 Z" fill="#7cc96a"/>
+  <g fill="#ffd76b">
+    <circle cx="40" cy="262" r="5"/><circle cx="300" cy="270" r="5"/><circle cx="360" cy="255" r="4"/>
+  </g>
+  <!-- 蒲公英媽媽 -->
+  <path d="M170 250 Q160 190 168 120" stroke="#6fae4f" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M168 250 Q130 230 120 205 Q150 215 168 240 Z" fill="#6fae4f"/>
+  <path d="M172 250 Q210 235 222 210 Q190 220 172 242 Z" fill="#6fae4f"/>
+  <circle cx="168" cy="105" r="52" fill="#ffffff" opacity="0.85" stroke="#d3dce8" stroke-width="2"/>
+  <g stroke="#d3dce8" stroke-width="2" stroke-linecap="round">
+    <path d="M168 105 L168 58 M168 105 L208 80 M168 105 L214 120 M168 105 L196 146 M168 105 L140 146 M168 105 L122 120 M168 105 L128 80"/>
+  </g>
+  <circle cx="168" cy="105" r="16" fill="#fff4d6"/>
+  <path d="M160 102 Q163 99 166 102 M170 102 Q173 99 176 102" stroke="#3b2a1f" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M162 109 Q168 115 174 109" stroke="#3b2a1f" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="158" cy="108" r="2.5" fill="#f4a3a3"/>
+  <circle cx="178" cy="108" r="2.5" fill="#f4a3a3"/>
+  <!-- 小蒲 -->
+  <use xlink:href="#seed" href="#seed" transform="translate(285 150) rotate(12)"/>
+  <path d="M300 152 Q312 140 308 128" stroke="#b07a52" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M230 170 Q250 160 270 168"/>
+    <path d="M225 190 Q250 180 268 188"/>
+  </g>
+</svg>

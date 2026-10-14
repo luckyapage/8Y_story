@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <title>胖胖的灰色雲朵裡擠滿小雨滴，小雨滴小滴從雲上往下跳。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfdcec"/>
+      <stop offset="1" stop-color="#eef5fb"/>
+    </linearGradient>
+    <g id="drop">
+      <path d="M0 -26 C6 -16 18 -2 18 10 A18 18 0 0 1 -18 10 C-18 -2 -6 -16 0 -26 Z" fill="#5bb8f0" stroke="#3a9ad6" stroke-width="2"/>
+      <ellipse cx="-9" cy="2" rx="3" ry="6" fill="#ffffff" opacity="0.7"/>
+      <circle cx="-5" cy="9" r="2" fill="#1f3b57"/>
+      <circle cx="5" cy="9" r="2" fill="#1f3b57"/>
+      <circle cx="-9" cy="14" r="2.2" fill="#f4a3b8"/>
+      <circle cx="9" cy="14" r="2.2" fill="#f4a3b8"/>
+      <path d="M-3 15 Q0 18 3 15" stroke="#1f3b57" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <!-- 胖胖的灰雲 -->
+  <g fill="#a9b6c8">
+    <circle cx="120" cy="70" r="40"/>
+    <circle cx="175" cy="50" r="48"/>
+    <circle cx="235" cy="62" r="42"/>
+    <circle cx="285" cy="80" r="32"/>
+    <rect x="90" y="70" width="220" height="42" rx="21"/>
+  </g>
+  <g fill="#bcc8d8">
+    <circle cx="165" cy="40" r="22"/>
+    <circle cx="225" cy="52" r="16"/>
+  </g>
+  <!-- 雲裡的雨滴兄弟姊妹 -->
+  <use xlink:href="#drop" href="#drop" transform="translate(130 92) scale(0.5)"/>
+  <use xlink:href="#drop" href="#drop" transform="translate(170 98) scale(0.5)"/>
+  <use xlink:href="#drop" href="#drop" transform="translate(210 95) scale(0.5)"/>
+  <use xlink:href="#drop" href="#drop" transform="translate(250 98) scale(0.5)"/>
+  <!-- 遠方的山跟小溪 -->
+  <path d="M0 240 Q70 200 140 235 Q220 190 300 230 Q350 210 400 225 L400 300 L0 300 Z" fill="#9fdc8a"/>
+  <path d="M260 300 Q280 270 330 262 Q370 256 400 258 L400 280 Q360 278 340 286 Q320 294 316 300 Z" fill="#7cc8f2"/>
+  <!-- 大葉子 -->
+  <path d="M60 250 Q100 200 170 215 Q120 260 60 250 Z" fill="#6fbf5a"/>
+  <path d="M65 248 Q110 225 165 216" stroke="#4f9a3d" stroke-width="2" fill="none"/>
+  <!-- 小滴往下跳 -->
+  <g stroke="#7cb4dc" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M200 125 L200 140"/>
+    <path d="M188 130 L188 142"/>
+    <path d="M212 130 L212 142"/>
+  </g>
+  <use xlink:href="#drop" href="#drop" transform="translate(200 175) scale(1.2)"/>
+  <!-- 其他雨絲 -->
+  <g stroke="#8fc4e8" stroke-width="2.5" stroke-linecap="round">
+    <path d="M110 135 L106 148"/>
+    <path d="M290 125 L286 138"/>
+    <path d="M260 160 L256 173"/>
+    <path d="M140 175 L136 188"/>
+  </g>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>小黃、小鳥、小貓跟松鼠在草地上一起開心地玩紅球。</title>
+  <defs>
+    <g id="pup">
+      <path d="M20 34q24-2 22-24" stroke="#e0a94a" stroke-width="8" stroke-linecap="round" fill="none"/>
+      <ellipse cx="0" cy="28" rx="24" ry="24" fill="#f5c869"/>
+      <ellipse cx="0" cy="34" rx="13" ry="15" fill="#fff1d6"/>
+      <ellipse cx="-12" cy="50" rx="9" ry="6" fill="#fff1d6"/>
+      <ellipse cx="12" cy="50" rx="9" ry="6" fill="#fff1d6"/>
+      <path d="M-16 6q16 9 32 0" stroke="#3d8be0" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <circle cx="0" cy="12" r="4" fill="#ffd95a"/>
+      <circle cx="0" cy="-12" r="24" fill="#f5c869"/>
+      <ellipse cx="-0" cy="-2" rx="12" ry="9" fill="#fff1d6"/>
+      <ellipse cx="0" cy="-7" rx="4.5" ry="3.2" fill="#4a3328"/>
+      <circle cx="-14" cy="-3" r="3.5" fill="#f7a1a1"/>
+      <circle cx="14" cy="-3" r="3.5" fill="#f7a1a1"/>
+    </g>
+  </defs>
+
+  <!-- 午後天空 -->
+  <rect width="400" height="300" fill="#d4efff"/>
+  <circle cx="60" cy="50" r="24" fill="#ffd95a"/>
+  <g fill="#fff">
+    <ellipse cx="200" cy="40" rx="36" ry="12"/>
+    <ellipse cx="220" cy="32" rx="20" ry="11"/>
+  </g>
+
+  <!-- 草地 -->
+  <path d="M0 190q110-20 210-4t190-6v120H0z" fill="#9edb78"/>
+  <path d="M0 255q130-14 240 0t160-4v49H0z" fill="#8bcf66"/>
+  <g fill="#ff9ec4">
+    <circle cx="30" cy="230" r="5"/><circle cx="380" cy="240" r="5"/>
+    <circle cx="200" cy="280" r="5"/>
+  </g>
+
+  <!-- 飛起來的紅球 -->
+  <g transform="translate(205 95)">
+    <circle r="14" fill="#e8504a"/>
+    <path d="M-13-3q13 7 26 0" stroke="#fff" stroke-width="3" fill="none"/>
+    <circle cx="-5" cy="-6" r="2.8" fill="#fff" opacity="0.6"/>
+  </g>
+  <g stroke="#e8504a" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <path d="M182 115l-8 6M188 122l-6 8"/>
+  </g>
+
+  <!-- 小鳥飛在空中 -->
+  <g transform="translate(280 80)">
+    <ellipse rx="15" ry="12" fill="#6fb6e8"/>
+    <ellipse cx="-2" cy="4" rx="9" ry="6" fill="#d6ecfb"/>
+    <path d="M-4-4q-6-16 10-18q-2 12-10 18z" fill="#4f98d0"/>
+    <circle cx="-5" cy="-4" r="2.4" fill="#222"/>
+    <path d="M-14-2l-8 3 8 3z" fill="#ffa53a"/>
+  </g>
+
+  <!-- 小黃 -->
+  <g transform="translate(120 200)">
+    <use href="#pup"/>
+    <ellipse cx="-22" cy="-22" rx="8" ry="15" transform="rotate(35 -22 -22)" fill="#b9783f"/>
+    <ellipse cx="22" cy="-22" rx="8" ry="15" transform="rotate(-35 22 -22)" fill="#b9783f"/>
+    <path d="M-12-17q4-5 8 0M4-17q4-5 8 0" stroke="#3a2a22" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M-6 1q3 5 6 0q3 5 6 0" stroke="#4a3328" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M-2 4q2 6 4 0z" fill="#ff7f8f"/>
+  </g>
+
+  <!-- 坐著的小貓 -->
+  <g transform="translate(250 215)">
+    <path d="M14 34q26 0 20-26" stroke="#f4a259" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <ellipse cx="0" cy="18" rx="18" ry="22" fill="#f4a259"/>
+    <ellipse cx="0" cy="22" rx="9" ry="13" fill="#ffe2c2"/>
+    <path d="M-15-20l1-16 11 9zM15-20l-1-16-11 9z" fill="#f4a259"/>
+    <circle cx="0" cy="-12" r="16" fill="#f4a259"/>
+    <path d="M-4-26v6M0-27v6M4-26v6" stroke="#d9823a" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-6" cy="-12" r="2.6" fill="#3a2a22"/>
+    <circle cx="6" cy="-12" r="2.6" fill="#3a2a22"/>
+    <path d="M-2-6l2 2 2-2z" fill="#f78a9a"/>
+    <path d="M-4-2q2 2 4 0q2 2 4 0" stroke="#5a3a24" stroke-width="1.5" fill="none"/>
+    <circle cx="-11" cy="-6" r="2.5" fill="#f7a1a1"/>
+    <circle cx="11" cy="-6" r="2.5" fill="#f7a1a1"/>
+  </g>
+
+  <!-- 坐著的松鼠 -->
+  <g transform="translate(335 222)">
+    <path d="M8 34q42 0 34-42q-6-26-28-18q16 8 8 30q-6 14-14 30z" fill="#c07a45"/>
+    <ellipse cx="0" cy="18" rx="14" ry="18" fill="#c07a45"/>
+    <ellipse cx="0" cy="22" rx="8" ry="11" fill="#f3d4ac"/>
+    <ellipse cx="-9" cy="-22" rx="4.5" ry="7" fill="#c07a45"/>
+    <ellipse cx="9" cy="-22" rx="4.5" ry="7" fill="#c07a45"/>
+    <circle cx="0" cy="-9" r="14" fill="#c07a45"/>
+    <ellipse cx="0" cy="-3" rx="8" ry="6" fill="#f3d4ac"/>
+    <circle cx="-5" cy="-11" r="2.6" fill="#2d2420"/>
+    <circle cx="5" cy="-11" r="2.6" fill="#2d2420"/>
+    <ellipse cx="0" cy="-4" rx="2.2" ry="1.8" fill="#5a3a24"/>
+    <circle cx="-10" cy="-4" r="2.2" fill="#f7a1a1"/>
+    <circle cx="10" cy="-4" r="2.2" fill="#f7a1a1"/>
+  </g>
+
+  <!-- 快樂的小星星 -->
+  <g fill="#ffd95a">
+    <path d="M160 140l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/>
+    <path d="M320 150l2 5 5 1-4 3 1 5-4-2-4 2 1-5-4-3 5-1z"/>
+  </g>
+</svg>

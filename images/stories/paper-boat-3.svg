@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>紙船跟小青蛙停在水草旁邊，遇到一條正在哭的小紅魚。</title>
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fd3f4"/>
+      <stop offset="1" stop-color="#4fa6d8"/>
+    </linearGradient>
+    <g id="boat">
+      <path d="M-45,0 L45,0 L30,22 L-30,22 Z" fill="#ffffff" stroke="#9fb4c8" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M-22,0 L0,-38 L22,0 Z" fill="#f4f8fc" stroke="#9fb4c8" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="-12" cy="10" r="5" fill="#fff" stroke="#33415c" stroke-width="1.5"/>
+      <circle cx="12" cy="10" r="5" fill="#fff" stroke="#33415c" stroke-width="1.5"/>
+      <circle cx="-10" cy="12" r="2.5" fill="#33415c"/>
+      <circle cx="14" cy="12" r="2.5" fill="#33415c"/>
+      <path d="M-5,17 Q0,14 5,17" fill="none" stroke="#33415c" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <g id="fish">
+      <path d="M12,0 L24,-9 L24,9 Z" fill="#ff6b5b"/>
+      <ellipse cx="0" cy="0" rx="15" ry="10" fill="#ff7f6e"/>
+      <circle cx="-7" cy="-2" r="2" fill="#3a2a2a"/>
+    </g>
+  </defs>
+
+  <!-- 天空與遠岸 -->
+  <rect width="400" height="300" fill="#dff3ff"/>
+  <path d="M0,70 Q200,50 400,70 L400,100 L0,100 Z" fill="#9ed67d"/>
+
+  <!-- 河水 -->
+  <rect y="95" width="400" height="205" fill="url(#water)"/>
+
+  <!-- 遠方的紅魚群 -->
+  <g opacity="0.8">
+    <use href="#fish" transform="translate(330,140) scale(0.6)"/>
+    <use href="#fish" transform="translate(360,155) scale(0.5)"/>
+    <use href="#fish" transform="translate(345,170) scale(0.55)"/>
+  </g>
+
+  <!-- 水草 -->
+  <g fill="none" stroke="#3f9e5a" stroke-width="7" stroke-linecap="round">
+    <path d="M40,300 Q30,240 50,190"/>
+    <path d="M65,300 Q80,230 62,170"/>
+    <path d="M90,300 Q85,250 105,210"/>
+  </g>
+  <g fill="none" stroke="#5cbf73" stroke-width="5" stroke-linecap="round">
+    <path d="M115,300 Q125,260 112,230"/>
+    <path d="M25,300 Q15,260 22,225"/>
+  </g>
+
+  <!-- 小紅魚在水草旁哭 -->
+  <g transform="translate(150,235) scale(-1,1)">
+    <path d="M12,0 L26,-11 L26,11 Z" fill="#ff6b5b"/>
+    <ellipse cx="0" cy="0" rx="18" ry="12" fill="#ff7f6e"/>
+    <path d="M-12,-4 Q-8,-1 -4,-4" fill="none" stroke="#3a2a2a" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-12,6 Q-8,3 -4,6" fill="none" stroke="#3a2a2a" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-9,0 q-3,6 0,9 q3,-3 0,-9 Z" fill="#ffffff"/>
+    <path d="M-20,-14 q-3,6 0,9 q3,-3 0,-9 Z" fill="#ffffff"/>
+  </g>
+
+  <!-- 紙船小白帆 -->
+  <use href="#boat" transform="translate(255,180)"/>
+
+  <!-- 青蛙呱呱在船上看著小紅魚 -->
+  <g transform="translate(225,170)">
+    <ellipse cx="0" cy="0" rx="16" ry="12" fill="#7cc95a"/>
+    <circle cx="-8" cy="-10" r="6" fill="#7cc95a"/>
+    <circle cx="8" cy="-10" r="6" fill="#7cc95a"/>
+    <circle cx="-8" cy="-10" r="3.5" fill="#fff"/>
+    <circle cx="8" cy="-10" r="3.5" fill="#fff"/>
+    <circle cx="-9.5" cy="-9" r="1.8" fill="#2d3a2a"/>
+    <circle cx="6.5" cy="-9" r="1.8" fill="#2d3a2a"/>
+    <path d="M-5,3 Q0,1 5,3" fill="none" stroke="#2d3a2a" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="-11" cy="1" r="2.5" fill="#ffb3b3"/>
+    <circle cx="11" cy="1" r="2.5" fill="#ffb3b3"/>
+  </g>
+
+  <!-- 水泡泡 -->
+  <g fill="none" stroke="#e6f7ff" stroke-width="2">
+    <circle cx="140" cy="205" r="4"/>
+    <circle cx="132" cy="190" r="3"/>
+    <circle cx="300" cy="260" r="5"/>
+  </g>
+</svg>

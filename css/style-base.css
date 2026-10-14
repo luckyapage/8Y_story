@@ -1,0 +1,312 @@
+/* ==========================================================
+   style-base.css：全站共用的色彩、字型、版面與基本元件
+   ========================================================== */
+
+/* ---------- 色彩與尺寸變數（淺色） ---------- */
+:root {
+  --color-bg: #fff8ec;          /* 頁面底色：暖米色，長時間閱讀不刺眼 */
+  --color-surface: #ffffff;     /* 卡片底色 */
+  --color-surface-alt: #fff1d9; /* 次要區塊底色 */
+  --color-text: #3b2f2a;        /* 主要文字：深咖啡，比純黑柔和 */
+  --color-text-soft: #6f5d53;   /* 次要文字 */
+  --color-border: #f0dcc0;
+  --color-primary: #f08c2e;     /* 主色：橘色 */
+  --color-primary-dark: #b85f0b;/* 主色深色（文字用，對比足夠） */
+  --color-success: #2f8a3c;
+  --color-danger: #c73d6e;
+  --color-highlight: #ffe27a;   /* 朗讀中的詞語底色 */
+  --color-focus: #2b6de0;       /* 鍵盤焦點外框 */
+  --shadow-card: 0 4px 14px rgba(120, 80, 30, 0.12);
+
+  --font-ui: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+  /* 故事內文使用楷書，與國小課本字形一致 */
+  --font-story: "BiauKai", "TW-Kai", "DFKai-SB", "標楷體", "Kaiti TC", "STKaiti", var(--font-ui);
+
+  --radius-lg: 22px;
+  --radius-md: 14px;
+  --tap-size: 48px;             /* 最小觸控尺寸 */
+  --header-height: 64px;
+  --content-width: 760px;
+  --gutter: 16px;
+
+  color-scheme: light;
+}
+
+/* ---------- 深色模式（依系統設定） ---------- */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1f1a17;
+    --color-surface: #2b2420;
+    --color-surface-alt: #352c26;
+    --color-text: #f6ece2;
+    --color-text-soft: #cbb9aa;
+    --color-border: #4a3d34;
+    --color-primary: #f5a04f;
+    --color-primary-dark: #ffb871;
+    --color-success: #7fd38b;
+    --color-danger: #ff8fb4;
+    --color-highlight: #7a6411;
+    --color-focus: #8fb4ff;
+    --shadow-card: 0 4px 14px rgba(0, 0, 0, 0.4);
+    color-scheme: dark;
+  }
+}
+
+/* ---------- 基本重設 ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-ui);
+  font-size: 18px;
+  line-height: 1.6;
+  /* 避免手機點擊時出現藍色框 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--color-primary-dark);
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.3;
+  margin: 0;
+}
+
+/* 鍵盤操作時清楚的焦點外框 */
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* 只給螢幕報讀器看的文字 */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* 跳到主要內容連結：平時隱藏，取得焦點時出現 */
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -60px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+
+.skip-link:focus {
+  top: 8px;
+}
+
+/* ---------- 頁首 ---------- */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: var(--header-height);
+  padding: 8px var(--gutter);
+  padding-top: max(8px, env(safe-area-inset-top));
+  background: var(--color-surface);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.app-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: var(--tap-size);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.app-brand i {
+  font-size: 26px;
+  color: var(--color-primary);
+}
+
+/* 注音開關按鈕 */
+.zhuyin-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: var(--tap-size);
+  padding: 0 14px;
+  border: 2px solid var(--color-primary);
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.zhuyin-toggle[aria-pressed="false"] {
+  background: transparent;
+  color: var(--color-primary-dark);
+}
+
+.zhuyin-toggle-icon {
+  font-size: 20px;
+}
+
+/* 窄螢幕時隱藏「小書蟲」文字與「注音」文字，只留圖示 */
+@media (max-width: 420px) {
+  .app-brand span,
+  .zhuyin-toggle-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+}
+
+/* ---------- 主要內容 ---------- */
+.app-main {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 20px var(--gutter) calc(96px + env(safe-area-inset-bottom));
+  outline: none;
+}
+
+.app-loading,
+.noscript {
+  text-align: center;
+  padding: 40px 0;
+  color: var(--color-text-soft);
+}
+
+/* 頁面標題列（含返回按鈕） */
+.page-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 28px;
+  outline: none;
+}
+
+/* ---------- 共用按鈕 ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: var(--tap-size);
+  min-width: var(--tap-size);
+  padding: 8px 20px;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s, background 0.2s;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-dark);
+}
+
+.btn-outline {
+  background: var(--color-surface);
+  border-color: var(--color-primary);
+  color: var(--color-primary-dark);
+}
+
+/* 圓形圖示按鈕（返回、朗讀等） */
+.btn-icon {
+  padding: 0;
+  width: var(--tap-size);
+  height: var(--tap-size);
+  border-radius: 50%;
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-primary-dark);
+  font-size: 20px;
+}
+
+/* 錯誤或空白狀態訊息 */
+.empty-state {
+  text-align: center;
+  padding: 48px 16px;
+}
+
+.empty-state i {
+  font-size: 56px;
+  color: var(--color-primary);
+  margin-bottom: 16px;
+}
+
+.empty-state p {
+  margin: 0 0 20px;
+}
+
+/* 減少動態效果偏好：關閉動畫 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

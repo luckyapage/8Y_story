@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="給 8 歲小朋友的每日 10 分鐘注音故事閱讀，支援離線與加入主畫面。">
+  <title>小書蟲每日閱讀</title>
+
+  <!-- PWA：網頁應用程式設定與主題色 -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#f08c2e">
+  <!-- iOS 加入主畫面設定 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="小書蟲">
+  <link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/icons/icon-192.png">
+
+  <!-- 圖示：Font Awesome CDN（Service Worker 會快取以支援離線） -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- 樣式：每個功能各一份 CSS -->
+  <link rel="stylesheet" href="css/style-base.css">
+  <link rel="stylesheet" href="css/toast-message.css">
+  <link rel="stylesheet" href="css/reading-timer.css">
+  <link rel="stylesheet" href="css/zhuyin-text.css">
+  <link rel="stylesheet" href="css/theme-list.css">
+  <link rel="stylesheet" href="css/story-list.css">
+  <link rel="stylesheet" href="css/story-reader.css">
+  <link rel="stylesheet" href="css/quiz-panel.css">
+  <link rel="stylesheet" href="css/install-prompt.css">
+</head>
+<body>
+  <!-- 鍵盤使用者可直接跳到主要內容 -->
+  <a class="skip-link" href="#app">跳到主要內容</a>
+
+  <!-- 頁首：App 名稱、今日閱讀進度、注音開關 -->
+  <header class="app-header">
+    <a class="app-brand" href="#/" aria-label="回到首頁">
+      <i class="fa-solid fa-book-open-reader" aria-hidden="true"></i>
+      <span>小書蟲</span>
+    </a>
+
+    <!-- 每日 10 分鐘閱讀進度（由 reading-timer.js 更新） -->
+    <div class="reading-timer" id="reading-timer"></div>
+
+    <!-- 注音顯示開關（由 zhuyin-text.js 控制） -->
+    <button class="zhuyin-toggle" id="zhuyin-toggle" type="button" aria-pressed="true">
+      <span class="zhuyin-toggle-icon" aria-hidden="true">ㄅ</span>
+      <span class="zhuyin-toggle-label">注音</span>
+    </button>
+  </header>
+
+  <!-- 主要內容區：由 app-router.js 依網址切換畫面 -->
+  <main class="app-main" id="app" tabindex="-1">
+    <p class="app-loading"><i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i> 載入中…</p>
+  </main>
+
+  <!-- 「加入主畫面」提示列（由 install-prompt.js 控制） -->
+  <div class="install-prompt" id="install-prompt" hidden></div>
+
+  <!-- 提示訊息區（由 toast-message.js 使用） -->
+  <div class="toast-area" id="toast-area" role="status" aria-live="polite"></div>
+
+  <!-- 沒有 JavaScript 時的說明 -->
+  <noscript>
+    <p class="noscript">請開啟瀏覽器的 JavaScript 功能，才能閱讀故事喔！</p>
+  </noscript>
+
+  <!-- 程式進入點（ES 模組） -->
+  <script type="module" src="js/main-app.js"></script>
+</body>
+</html>

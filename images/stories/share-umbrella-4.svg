@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>晴天的教室裡，小安送給小美一張畫著黃色雨傘的卡片</title>
+  <rect width="400" height="300" fill="#fff6e4"/>
+  <rect y="232" width="400" height="68" fill="#d8b98f"/>
+  <rect x="230" y="30" width="150" height="110" rx="10" fill="#bfe8ff" stroke="#c99a6b" stroke-width="6"/>
+  <path d="M250 140 a55 55 0 0 1 110 0" stroke="#ff8a8a" stroke-width="6" fill="none"/>
+  <path d="M258 140 a47 47 0 0 1 94 0" stroke="#ffd36b" stroke-width="6" fill="none"/>
+  <path d="M266 140 a39 39 0 0 1 78 0" stroke="#7fd6a0" stroke-width="6" fill="none"/>
+  <circle cx="268" cy="62" r="16" fill="#ffd84d"/>
+  <rect x="30" y="40" width="150" height="80" rx="8" fill="#3f7a5a" stroke="#a9744a" stroke-width="6"/>
+  <g transform="translate(130 262) scale(1.05)">
+    <rect x="-13" y="-32" width="10" height="32" rx="5" fill="#f9d7b8"/>
+    <rect x="3" y="-32" width="10" height="32" rx="5" fill="#f9d7b8"/>
+    <ellipse cx="-8" cy="0" rx="9" ry="5" fill="#d6455f"/>
+    <ellipse cx="8" cy="0" rx="9" ry="5" fill="#d6455f"/>
+    <path d="M-18 -64 L-25 -38" stroke="#f06c8a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-25" cy="-38" r="5.5" fill="#f9d7b8"/>
+    <path d="M18 -64 L40 -70" stroke="#f06c8a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="40" cy="-70" r="5.5" fill="#f9d7b8"/>
+    <path d="M-15 -72 Q0 -78 15 -72 L25 -28 Q0 -22 -25 -28 Z" fill="#f06c8a"/>
+    <circle cx="-27" cy="-98" r="9" fill="#3a2e2a"/>
+    <circle cx="27" cy="-98" r="9" fill="#3a2e2a"/>
+    <circle cx="-22" cy="-106" r="4" fill="#ffcf3f"/>
+    <circle cx="22" cy="-106" r="4" fill="#ffcf3f"/>
+    <circle cx="0" cy="-92" r="22" fill="#f9d7b8"/>
+    <path d="M-23 -90 C-24 -122 24 -122 23 -90 Q12 -102 0 -100 Q-12 -102 -23 -90 Z" fill="#3a2e2a"/>
+    <circle cx="-8" cy="-92" r="2.6" fill="#3a2e2a"/>
+    <circle cx="8" cy="-92" r="2.6" fill="#3a2e2a"/>
+    <circle cx="-13" cy="-84" r="4" fill="#f6a5a0" opacity=".7"/>
+    <circle cx="13" cy="-84" r="4" fill="#f6a5a0" opacity=".7"/>
+    <path d="M-7 -84 Q0 -74 7 -84 Z" fill="#c95454"/>
+  </g>
+  <g transform="translate(270 262) scale(-1.05 1.05)">
+    <rect x="-13" y="-32" width="10" height="32" rx="5" fill="#f9d7b8"/>
+    <rect x="3" y="-32" width="10" height="32" rx="5" fill="#f9d7b8"/>
+    <ellipse cx="-8" cy="0" rx="9" ry="5" fill="#6a4a8c"/>
+    <ellipse cx="8" cy="0" rx="9" ry="5" fill="#6a4a8c"/>
+    <path d="M-17 -64 L-24 -40" stroke="#5bbf7a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-24" cy="-40" r="5.5" fill="#f9d7b8"/>
+    <path d="M17 -64 L40 -70" stroke="#5bbf7a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="40" cy="-70" r="5.5" fill="#f9d7b8"/>
+    <path d="M-20 -46 L20 -46 L26 -26 L-26 -26 Z" fill="#3f5a8a"/>
+    <rect x="-19" y="-72" width="38" height="30" rx="13" fill="#5bbf7a"/>
+    <path d="M-25 -86 C-28 -124 28 -124 25 -86 L25 -74 Q21 -70 17 -74 L17 -96 Q0 -104 -17 -96 L-17 -74 Q-21 -70 -25 -74 Z" fill="#8a5a3b"/>
+    <circle cx="0" cy="-90" r="19" fill="#f9d7b8"/>
+    <path d="M-19 -94 Q0 -110 19 -94 Q19 -110 0 -112 Q-19 -110 -19 -94 Z" fill="#8a5a3b"/>
+    <circle cx="-8" cy="-90" r="2.6" fill="#3a2e2a"/>
+    <circle cx="8" cy="-90" r="2.6" fill="#3a2e2a"/>
+    <circle cx="-13" cy="-82" r="4" fill="#f6a5a0" opacity=".7"/>
+    <circle cx="13" cy="-82" r="4" fill="#f6a5a0" opacity=".7"/>
+    <path d="M-7 -82 Q0 -72 7 -82 Z" fill="#c95454"/>
+  </g>
+  <g transform="translate(200 172) rotate(-6)">
+    <rect x="-26" y="-22" width="52" height="40" rx="4" fill="#ffffff" stroke="#f0a0b4" stroke-width="2"/>
+    <path d="M-14 -2 A14 11 0 0 1 14 -2 Z" fill="#ffcf3f"/>
+    <path d="M0 -2 V8" stroke="#6b5640" stroke-width="2"/>
+    <circle cx="-6" cy="10" r="3.5" fill="#f06c8a"/>
+    <circle cx="6" cy="10" r="3.5" fill="#5bbf7a"/>
+  </g>
+  <path d="M190 120 q5 -9 10 0 q5 -9 10 0 q-10 12 -10 12 q0 0 -10 -12 Z" fill="#ff8fa3"/>
+</svg>

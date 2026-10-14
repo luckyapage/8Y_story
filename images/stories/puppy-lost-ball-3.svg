@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>樹林裡，松鼠從樹洞探出頭，懷裡抱著紅球，小黃在樹下開心地搖尾巴。</title>
+  <defs>
+    <g id="pup">
+      <path d="M20 34q24-2 22-24" stroke="#e0a94a" stroke-width="8" stroke-linecap="round" fill="none"/>
+      <ellipse cx="0" cy="28" rx="24" ry="24" fill="#f5c869"/>
+      <ellipse cx="0" cy="34" rx="13" ry="15" fill="#fff1d6"/>
+      <ellipse cx="-12" cy="50" rx="9" ry="6" fill="#fff1d6"/>
+      <ellipse cx="12" cy="50" rx="9" ry="6" fill="#fff1d6"/>
+      <path d="M-16 6q16 9 32 0" stroke="#3d8be0" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <circle cx="0" cy="12" r="4" fill="#ffd95a"/>
+      <circle cx="0" cy="-12" r="24" fill="#f5c869"/>
+      <ellipse cx="-0" cy="-2" rx="12" ry="9" fill="#fff1d6"/>
+      <ellipse cx="0" cy="-7" rx="4.5" ry="3.2" fill="#4a3328"/>
+      <circle cx="-14" cy="-3" r="3.5" fill="#f7a1a1"/>
+      <circle cx="14" cy="-3" r="3.5" fill="#f7a1a1"/>
+    </g>
+  </defs>
+
+  <!-- 樹林背景 -->
+  <rect width="400" height="300" fill="#dff3d6"/>
+  <g fill="#b9dfa6">
+    <rect x="20" y="60" width="16" height="160" rx="6"/>
+    <circle cx="28" cy="60" r="34"/>
+    <rect x="160" y="70" width="14" height="150" rx="6"/>
+    <circle cx="167" cy="70" r="30"/>
+    <rect x="360" y="50" width="16" height="170" rx="6"/>
+    <circle cx="368" cy="55" r="34"/>
+  </g>
+
+  <!-- 地面 -->
+  <path d="M0 215q120-14 220-2t180-2v89H0z" fill="#8cc46c"/>
+  <g fill="#b8865a">
+    <ellipse cx="70" cy="262" rx="12" ry="5"/>
+    <ellipse cx="330" cy="275" rx="10" ry="4"/>
+  </g>
+
+  <!-- 有樹洞的大樹 -->
+  <path d="M235 230q10-60 5-150h60q-5 90 5 150z" fill="#a8744a"/>
+  <path d="M232 232q14-8 20-2M305 232q-12-8-20-2" stroke="#8a5c38" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <g fill="#5fb85a">
+    <circle cx="230" cy="55" r="40"/>
+    <circle cx="300" cy="40" r="44"/>
+    <circle cx="340" cy="85" r="30"/>
+  </g>
+  <ellipse cx="270" cy="142" rx="24" ry="28" fill="#4a2f1e"/>
+
+  <!-- 松鼠探出頭，抱著紅球 -->
+  <g transform="translate(270 136)">
+    <path d="M14 0q34-8 26-44q-6-18-22-10q14 8 6 24z" fill="#c07a45"/>
+    <ellipse cx="-11" cy="-20" rx="5" ry="8" fill="#c07a45"/>
+    <ellipse cx="11" cy="-20" rx="5" ry="8" fill="#c07a45"/>
+    <circle cx="0" cy="-5" r="16" fill="#c07a45"/>
+    <ellipse cx="0" cy="2" rx="9" ry="7" fill="#f3d4ac"/>
+    <circle cx="-6" cy="-8" r="3" fill="#2d2420"/>
+    <circle cx="6" cy="-8" r="3" fill="#2d2420"/>
+    <ellipse cx="0" cy="-1" rx="2.5" ry="2" fill="#5a3a24"/>
+    <circle cx="-12" cy="0" r="2.5" fill="#f7a1a1"/>
+    <circle cx="12" cy="0" r="2.5" fill="#f7a1a1"/>
+    <g transform="translate(0 24)">
+      <circle r="13" fill="#e8504a"/>
+      <path d="M-12-3q12 7 24 0" stroke="#fff" stroke-width="3" fill="none"/>
+      <circle cx="-5" cy="-6" r="2.6" fill="#fff" opacity="0.6"/>
+    </g>
+    <ellipse cx="-11" cy="18" rx="5" ry="4" fill="#c07a45"/>
+    <ellipse cx="11" cy="18" rx="5" ry="4" fill="#c07a45"/>
+  </g>
+
+  <!-- 開心搖尾巴的小黃 -->
+  <g transform="translate(140 212)">
+    <use href="#pup"/>
+    <ellipse cx="-22" cy="-22" rx="8" ry="15" transform="rotate(35 -22 -22)" fill="#b9783f"/>
+    <ellipse cx="22" cy="-22" rx="8" ry="15" transform="rotate(-35 22 -22)" fill="#b9783f"/>
+    <circle cx="-8" cy="-18" r="3.6" fill="#3a2a22"/>
+    <circle cx="10" cy="-18" r="3.6" fill="#3a2a22"/>
+    <circle cx="-7" cy="-20" r="1.2" fill="#fff"/>
+    <circle cx="11" cy="-20" r="1.2" fill="#fff"/>
+    <path d="M-6 1q3 5 6 0q3 5 6 0" stroke="#4a3328" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M-2 4q2 6 4 0z" fill="#ff7f8f"/>
+    <g stroke="#e0a94a" stroke-width="2.5" stroke-linecap="round" fill="none">
+      <path d="M50 0q6 6 2 14M56-8q10 8 4 22"/>
+    </g>
+  </g>
+</svg>

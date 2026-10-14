@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <title>小滴在小溪裡順著水流往前跑，石頭上的青蛙正在跟他打招呼。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/>
+      <stop offset="1" stop-color="#eaf7ff"/>
+    </linearGradient>
+    <g id="drop">
+      <path d="M0 -26 C6 -16 18 -2 18 10 A18 18 0 0 1 -18 10 C-18 -2 -6 -16 0 -26 Z" fill="#5bb8f0" stroke="#3a9ad6" stroke-width="2"/>
+      <ellipse cx="-9" cy="2" rx="3" ry="6" fill="#ffffff" opacity="0.7"/>
+      <circle cx="-5" cy="9" r="2" fill="#1f3b57"/>
+      <circle cx="5" cy="9" r="2" fill="#1f3b57"/>
+      <circle cx="-9" cy="14" r="2.2" fill="#f4a3b8"/>
+      <circle cx="9" cy="14" r="2.2" fill="#f4a3b8"/>
+      <path d="M-3 15 Q0 18 3 15" stroke="#1f3b57" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <ellipse cx="80" cy="45" rx="40" ry="14" fill="#ffffff"/>
+  <ellipse cx="300" cy="55" rx="34" ry="12" fill="#ffffff"/>
+  <!-- 遠方的大河與小船 -->
+  <path d="M0 140 Q200 110 400 140 L400 300 L0 300 Z" fill="#a8e08f"/>
+  <path d="M230 140 Q320 128 400 132 L400 160 Q320 152 250 160 Z" fill="#7cc8f2"/>
+  <path d="M330 134 L360 134 L354 142 L336 142 Z" fill="#e8855a"/>
+  <path d="M345 134 L345 118 L356 132 Z" fill="#ffffff"/>
+  <!-- 蜿蜒的小溪 -->
+  <path d="M0 230 Q80 200 150 220 Q230 245 280 190 Q300 168 250 158 L290 156 Q330 170 310 200 Q270 260 160 255 Q80 250 0 275 Z" fill="#7cc8f2"/>
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M30 245 Q45 240 60 245"/>
+    <path d="M190 240 Q205 235 220 238"/>
+    <path d="M285 195 Q292 185 290 175"/>
+  </g>
+  <!-- 圓圓的石頭 -->
+  <ellipse cx="120" cy="232" rx="20" ry="11" fill="#b9b2aa"/>
+  <ellipse cx="250" cy="236" rx="34" ry="16" fill="#a39c94"/>
+  <ellipse cx="244" cy="230" rx="22" ry="7" fill="#bdb6ae"/>
+  <!-- 青蛙 -->
+  <g transform="translate(252 210)">
+    <ellipse cx="0" cy="6" rx="22" ry="15" fill="#6cc24a"/>
+    <circle cx="-11" cy="-8" r="8" fill="#6cc24a"/>
+    <circle cx="11" cy="-8" r="8" fill="#6cc24a"/>
+    <circle cx="-11" cy="-8" r="4.5" fill="#ffffff"/>
+    <circle cx="11" cy="-8" r="4.5" fill="#ffffff"/>
+    <circle cx="-10" cy="-8" r="2.2" fill="#1f3b57"/>
+    <circle cx="12" cy="-8" r="2.2" fill="#1f3b57"/>
+    <path d="M-9 6 Q0 13 9 6" stroke="#2f6b25" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-17" cy="18" rx="8" ry="4" fill="#5aae3a"/>
+    <ellipse cx="17" cy="18" rx="8" ry="4" fill="#5aae3a"/>
+    <path d="M22 0 Q32 -8 30 -18" stroke="#6cc24a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- 小滴順著水流跑 -->
+  <use xlink:href="#drop" href="#drop" transform="translate(165 215) rotate(-10)"/>
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M128 210 L140 210"/>
+    <path d="M124 220 L138 220"/>
+  </g>
+  <!-- 小花 -->
+  <g fill="#ffb3c7">
+    <circle cx="60" cy="180" r="5"/><circle cx="350" cy="230" r="5"/><circle cx="370" cy="270" r="4"/>
+  </g>
+</svg>

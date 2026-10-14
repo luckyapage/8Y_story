@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>許多小螞蟻排成一排，一起把大餅乾抬起來往家裡走。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/>
+      <stop offset="1" stop-color="#e8f7ff"/>
+    </linearGradient>
+    <g id="ant">
+      <g stroke="#3a2a22" stroke-width="2.2" stroke-linecap="round" fill="none">
+        <path d="M-14 6l-5 11M-2 4v13M6 4l6 12"/>
+        <path d="M13-13q-3-9-9-12M18-12q3-10 10-11"/>
+      </g>
+      <circle cx="4" cy="-25" r="2.2"/>
+      <circle cx="28" cy="-23" r="2.2"/>
+      <ellipse cx="-14" cy="0" rx="12" ry="9"/>
+      <circle cx="0" cy="-1" r="6"/>
+      <circle cx="13" cy="-5" r="10"/>
+      <circle cx="16" cy="-8" r="3.4" fill="#fff"/>
+      <circle cx="17" cy="-8" r="1.8" fill="#222"/>
+      <circle cx="19" cy="-2" r="2.2" fill="#f7a1a1"/>
+    </g>
+    <g id="hei">
+      <use href="#ant" fill="#2d2a32"/>
+      <path d="M2-6q6 7 12 2l2 4q-8 6-15 0z" fill="#e8504a"/>
+      <path d="M4-1l-5 9 7-3z" fill="#e8504a"/>
+    </g>
+  </defs>
+
+  <!-- 天空與草地 -->
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <circle cx="345" cy="45" r="24" fill="#ffd95a"/>
+  <g fill="#fff">
+    <ellipse cx="90" cy="50" rx="38" ry="13"/>
+    <ellipse cx="112" cy="40" rx="22" ry="13"/>
+  </g>
+  <path d="M0 180q110-20 210-2t190-8v130H0z" fill="#8fd16a"/>
+  <path d="M0 250q130-15 240 0t160-4v54H0z" fill="#79c257"/>
+
+  <!-- 螞蟻窩 -->
+  <path d="M300 220q45-70 95 0z" fill="#c98f5a"/>
+  <path d="M318 212q27-42 58 0z" fill="#d9a46d"/>
+  <ellipse cx="348" cy="214" rx="14" ry="9" fill="#5a3a24"/>
+
+  <!-- 隊伍走過的路 -->
+  <g fill="#6aa94a" opacity="0.6">
+    <circle cx="40" cy="262" r="2"/><circle cx="58" cy="258" r="2"/>
+    <circle cx="76" cy="262" r="2"/>
+  </g>
+
+  <!-- 抬起來的大餅乾 -->
+  <g transform="translate(165 196)">
+    <ellipse cx="0" cy="8" rx="98" ry="22" fill="#c9883f"/>
+    <ellipse cx="0" cy="0" rx="98" ry="22" fill="#eebc72"/>
+    <g fill="#6b3f26">
+      <ellipse cx="-50" cy="-4" rx="7" ry="3"/>
+      <ellipse cx="-12" cy="6" rx="6" ry="2.6"/>
+      <ellipse cx="24" cy="-8" rx="7" ry="3"/>
+      <ellipse cx="60" cy="4" rx="6" ry="2.6"/>
+    </g>
+  </g>
+
+  <!-- 抬餅乾的螞蟻們 -->
+  <g fill="#9c5a36">
+    <use href="#ant" transform="translate(88 240)"/>
+    <use href="#ant" transform="translate(140 242)"/>
+    <use href="#ant" transform="translate(192 240)"/>
+    <use href="#ant" transform="translate(244 242)"/>
+  </g>
+
+  <!-- 小黑在最前面帶路 -->
+  <use href="#hei" transform="translate(300 238) scale(1.15)"/>
+
+  <!-- 用力的線條 -->
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round">
+    <path d="M40 170l-14-4M42 186l-15 1M44 202l-13 5"/>
+  </g>
+</svg>

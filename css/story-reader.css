@@ -1,0 +1,200 @@
+/* ==========================================================
+   story-reader.css：故事閱讀頁（插圖、注音內文、翻頁）
+   ========================================================== */
+
+.reader-head {
+  align-items: flex-start;
+}
+
+.reader-title {
+  font-family: var(--font-story);
+  font-size: 30px;
+  padding-top: 2px;
+}
+
+/* 每一頁的進場動畫 */
+.reader-paragraph,
+.reader-quiz {
+  outline: none;
+  animation: page-in 0.35s ease-out;
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ---------- 插圖（可點擊朗讀） ---------- */
+.reader-figure {
+  margin: 0 0 20px;
+}
+
+.reader-image-btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 4px solid var(--theme-color, var(--color-primary));
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-surface-alt);
+  cursor: pointer;
+  box-shadow: var(--shadow-card);
+}
+
+.reader-image-btn img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* 右下角的「點圖聽故事」提示 */
+.reader-image-hint {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #7a3d00;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 朗讀中：提示圖示跳動 */
+.reader-image-btn.is-playing .reader-image-hint i {
+  animation: speaker-pulse 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes speaker-pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.3);
+  }
+}
+
+/* ---------- 注音內文 ---------- */
+.reader-text {
+  margin: 0;
+  padding: 20px 18px;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-card);
+  font-family: var(--font-story);
+  font-size: 28px;
+  line-height: 2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* 瀏覽器不支援逐詞高亮時，朗讀中整段加上底色 */
+.reader-text.is-reading {
+  box-shadow: 0 0 0 4px var(--color-highlight), var(--shadow-card);
+}
+
+@media (min-width: 640px) {
+  .reader-text {
+    font-size: 32px;
+    padding: 28px 32px;
+  }
+}
+
+/* ---------- 翻頁列 ---------- */
+.reader-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.reader-nav .btn {
+  flex-shrink: 0;
+}
+
+.reader-next[hidden] {
+  display: none;
+}
+
+/* 問答頁時下一頁按鈕隱藏，用透明佔位保持點點置中 */
+.reader-nav:has(.reader-next[hidden])::after {
+  content: "";
+  width: 120px;
+}
+
+/* 頁碼點點 */
+.reader-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reader-dots li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-border);
+  transition: transform 0.2s, background 0.2s;
+}
+
+.reader-dots li.is-passed {
+  background: var(--theme-color, var(--color-primary));
+  opacity: 0.5;
+}
+
+.reader-dots li.is-active {
+  background: var(--theme-color, var(--color-primary));
+  transform: scale(1.35);
+}
+
+/* 問答頁的點點是星星形狀的提示 */
+.reader-dots li.is-quiz {
+  border-radius: 3px;
+  transform: rotate(45deg);
+}
+
+.reader-dots li.is-quiz.is-active {
+  transform: rotate(45deg) scale(1.35);
+}
+
+/* 窄螢幕：按鈕只顯示箭頭 */
+@media (max-width: 420px) {
+  .reader-nav .btn span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .reader-nav .btn {
+    width: 56px;
+    padding: 0;
+  }
+
+  .reader-nav:has(.reader-next[hidden])::after {
+    width: 56px;
+  }
+
+  .reader-text {
+    font-size: 26px;
+    padding: 16px 14px;
+  }
+}

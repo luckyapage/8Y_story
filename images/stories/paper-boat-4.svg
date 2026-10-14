@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>夕陽下，紙船載著小青蛙漂回岸邊，小男孩開心地拍手。</title>
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb6a3"/>
+      <stop offset="0.6" stop-color="#ffd59a"/>
+      <stop offset="1" stop-color="#fff0c9"/>
+    </linearGradient>
+    <g id="boat">
+      <path d="M-45,0 L45,0 L30,22 L-30,22 Z" fill="#ffffff" stroke="#9fb4c8" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M-22,0 L0,-38 L22,0 Z" fill="#f4f8fc" stroke="#9fb4c8" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M-16,10 Q-12,6 -8,10" fill="none" stroke="#33415c" stroke-width="2" stroke-linecap="round"/>
+      <path d="M8,10 Q12,6 16,10" fill="none" stroke="#33415c" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-6,14 Q0,20 6,14" fill="none" stroke="#33415c" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- 黃昏天空與夕陽 -->
+  <rect width="400" height="300" fill="url(#dusk)"/>
+  <circle cx="300" cy="140" r="40" fill="#ff8a5c"/>
+  <g fill="#fff3e6" opacity="0.8">
+    <ellipse cx="80" cy="60" rx="40" ry="12"/>
+    <ellipse cx="220" cy="45" rx="30" ry="10"/>
+  </g>
+
+  <!-- 對岸 -->
+  <path d="M0,140 Q200,125 400,140 L400,160 L0,160 Z" fill="#a9c97a"/>
+
+  <!-- 河水 -->
+  <path d="M0,155 Q200,148 400,155 L400,235 Q200,245 0,235 Z" fill="#f2a98b"/>
+  <g stroke="#ffe0c2" stroke-width="3" stroke-linecap="round">
+    <path d="M280,175 l40,0"/>
+    <path d="M270,190 l60,0"/>
+    <path d="M285,205 l30,0"/>
+  </g>
+
+  <!-- 近岸 -->
+  <path d="M0,230 Q200,245 400,230 L400,300 L0,300 Z" fill="#8cc96b"/>
+
+  <!-- 紙船小白帆靠岸 -->
+  <use href="#boat" transform="translate(170,205)"/>
+
+  <!-- 青蛙呱呱在船上揮手 -->
+  <g transform="translate(150,196)">
+    <path d="M12,-2 Q22,-10 24,-20" fill="none" stroke="#7cc95a" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="0" cy="0" rx="16" ry="12" fill="#7cc95a"/>
+    <circle cx="-8" cy="-10" r="6" fill="#7cc95a"/>
+    <circle cx="8" cy="-10" r="6" fill="#7cc95a"/>
+    <circle cx="-8" cy="-10" r="3.5" fill="#fff"/>
+    <circle cx="8" cy="-10" r="3.5" fill="#fff"/>
+    <circle cx="-7.5" cy="-10" r="1.8" fill="#2d3a2a"/>
+    <circle cx="8.5" cy="-10" r="1.8" fill="#2d3a2a"/>
+    <path d="M-6,1 Q0,7 6,1" fill="#c0392b" stroke="#2d3a2a" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="-11" cy="1" r="2.5" fill="#ffb3b3"/>
+    <circle cx="11" cy="1" r="2.5" fill="#ffb3b3"/>
+  </g>
+
+  <!-- 小安蹲在岸邊拍手 -->
+  <g transform="translate(80,250)">
+    <ellipse cx="0" cy="30" rx="30" ry="8" fill="#6fae52"/>
+    <path d="M-24,28 Q-26,-6 0,-8 Q26,-6 24,28 Z" fill="#5b9bd5"/>
+    <path d="M-16,6 Q-8,0 -3,-6" fill="none" stroke="#ffd9b3" stroke-width="8" stroke-linecap="round"/>
+    <path d="M16,6 Q8,0 3,-6" fill="none" stroke="#ffd9b3" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="-36" r="20" fill="#ffd9b3"/>
+    <path d="M-20,-38 Q-18,-60 2,-58 Q20,-58 20,-40 Q8,-48 -20,-38 Z" fill="#4a3428"/>
+    <path d="M-10,-34 Q-7,-38 -4,-34" fill="none" stroke="#33241c" stroke-width="2" stroke-linecap="round"/>
+    <path d="M4,-34 Q7,-38 10,-34" fill="none" stroke="#33241c" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-7,-26 Q0,-18 7,-26 Z" fill="#c0392b"/>
+    <circle cx="-13" cy="-27" r="3" fill="#ffb3a7"/>
+    <circle cx="13" cy="-27" r="3" fill="#ffb3a7"/>
+    <g stroke="#ff8a5c" stroke-width="2.5" stroke-linecap="round">
+      <path d="M-9,-8 l-10,-4"/>
+      <path d="M9,-8 l10,-4"/>
+    </g>
+  </g>
+</svg>

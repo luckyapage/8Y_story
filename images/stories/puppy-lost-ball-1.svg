@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>小狗小黃站在院子裡，耳朵垂下來，難過地找不到牠的紅球。</title>
+  <defs>
+    <g id="pup">
+      <path d="M20 34q24-2 22-24" stroke="#e0a94a" stroke-width="8" stroke-linecap="round" fill="none"/>
+      <ellipse cx="0" cy="28" rx="24" ry="24" fill="#f5c869"/>
+      <ellipse cx="0" cy="34" rx="13" ry="15" fill="#fff1d6"/>
+      <ellipse cx="-12" cy="50" rx="9" ry="6" fill="#fff1d6"/>
+      <ellipse cx="12" cy="50" rx="9" ry="6" fill="#fff1d6"/>
+      <path d="M-16 6q16 9 32 0" stroke="#3d8be0" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <circle cx="0" cy="12" r="4" fill="#ffd95a"/>
+      <circle cx="0" cy="-12" r="24" fill="#f5c869"/>
+      <ellipse cx="-0" cy="-2" rx="12" ry="9" fill="#fff1d6"/>
+      <ellipse cx="0" cy="-7" rx="4.5" ry="3.2" fill="#4a3328"/>
+      <circle cx="-14" cy="-3" r="3.5" fill="#f7a1a1"/>
+      <circle cx="14" cy="-3" r="3.5" fill="#f7a1a1"/>
+    </g>
+  </defs>
+
+  <!-- 天空 -->
+  <rect width="400" height="300" fill="#cdeaff"/>
+  <g fill="#fff">
+    <ellipse cx="300" cy="50" rx="40" ry="14"/>
+    <ellipse cx="322" cy="40" rx="22" ry="13"/>
+    <ellipse cx="90" cy="70" rx="30" ry="10"/>
+  </g>
+
+  <!-- 木頭圍籬 -->
+  <g fill="#f0d3a8" stroke="#d3ad78" stroke-width="2">
+    <rect x="0" y="140" width="400" height="12"/>
+    <rect x="0" y="170" width="400" height="12"/>
+  </g>
+  <g fill="#f6dfba" stroke="#d3ad78" stroke-width="2">
+    <path d="M10 200v-80l12-12 12 12v80z"/>
+    <path d="M60 200v-80l12-12 12 12v80z"/>
+    <path d="M110 200v-80l12-12 12 12v80z"/>
+    <path d="M160 200v-80l12-12 12 12v80z"/>
+    <path d="M210 200v-80l12-12 12 12v80z"/>
+    <path d="M260 200v-80l12-12 12 12v80z"/>
+    <path d="M310 200v-80l12-12 12 12v80z"/>
+    <path d="M360 200v-80l12-12 12 12v80z"/>
+  </g>
+
+  <!-- 院子草地 -->
+  <rect y="195" width="400" height="105" fill="#9edb78"/>
+  <g stroke="#78c157" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M40 260q-2-10 3-16M48 262q2-10 8-14"/>
+    <path d="M250 280q-2-10 3-16M258 282q2-10 8-14"/>
+  </g>
+
+  <!-- 狗屋 -->
+  <rect x="285" y="170" width="90" height="70" rx="4" fill="#f5e6c8"/>
+  <path d="M272 176l58-48 58 48z" fill="#e8504a"/>
+  <path d="M312 240v-36a18 18 0 0 1 36 0v36z" fill="#6b4a32"/>
+
+  <!-- 水碗 -->
+  <ellipse cx="80" cy="245" rx="22" ry="8" fill="#3d8be0"/>
+  <ellipse cx="80" cy="242" rx="16" ry="4" fill="#9cc8f2"/>
+
+  <!-- 難過的小黃（耳朵垂下來） -->
+  <g transform="translate(180 200)">
+    <use href="#pup"/>
+    <ellipse cx="-22" cy="-6" rx="8" ry="17" transform="rotate(12 -22 -6)" fill="#b9783f"/>
+    <ellipse cx="22" cy="-6" rx="8" ry="17" transform="rotate(-12 22 -6)" fill="#b9783f"/>
+    <circle cx="-9" cy="-15" r="3.5" fill="#3a2a22"/>
+    <circle cx="9" cy="-15" r="3.5" fill="#3a2a22"/>
+    <path d="M-15-21l8-3M7-24l8 3" stroke="#b9783f" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M-5 5q5-4 10 0" stroke="#4a3328" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M-12-13q-3 6 0 8q3-2 0-8z" fill="#7cc6f2"/>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+/* ==========================================================
+   zhuyin-text.css：國字＋右側直排注音（仿國小課本排版）
+   ========================================================== */
+
+/* 斷行單位：前引號＋詞語＋後方標點，不在中間斷行 */
+.zy-unit {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* 詞語：可點擊朗讀的按鈕，外觀與一般文字相同 */
+.zy-word {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 0.04em;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  vertical-align: middle;
+  transition: background 0.2s;
+}
+
+button.zy-word {
+  cursor: pointer;
+}
+
+button.zy-word:hover {
+  background: var(--color-surface-alt);
+}
+
+/* 正在朗讀的詞語 */
+.zy-word.is-speaking {
+  background: var(--color-highlight);
+}
+
+/* 單一國字＋注音 */
+.zy-char {
+  display: inline-flex;
+  align-items: center;
+}
+
+.zy-han {
+  line-height: 1.25;
+}
+
+/* 注音區塊：字的右側，大小約為國字的 0.4 倍 */
+.zy-bpmf {
+  display: inline-flex;
+  align-items: stretch;
+  font-family: var(--font-ui);
+  font-size: 0.4em;
+  line-height: 1;
+  margin-left: 0.1em;
+  margin-right: 0.15em;
+  color: var(--color-text-soft);
+}
+
+/* 注音直排欄 */
+.zy-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.zy-sym {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: 0;
+}
+
+/* 輕聲點：在注音上方 */
+.zy-light {
+  display: block;
+  line-height: 0.8;
+}
+
+/* 聲調：標在最後一個注音符號的右上方 */
+.zy-tone {
+  display: flex;
+  align-items: flex-end;
+  width: 0.7em;
+  padding-bottom: 0.55em;
+}
+
+/* 只有一個符號且沒有輕聲時，聲調放右上 */
+.zy-tone[data-len="1"] {
+  align-items: flex-start;
+  padding-bottom: 0;
+  padding-top: 0.1em;
+}
+
+/* 標點符號 */
+.zy-punct {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1.25;
+}
+
+/* 關閉注音時隱藏注音區塊 */
+.hide-zhuyin .zy-bpmf {
+  display: none;
+}

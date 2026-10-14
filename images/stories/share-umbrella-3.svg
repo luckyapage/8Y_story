@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>小美與小安擠在同一把黃色雨傘下，一起跳過路上的水坑</title>
+  <rect width="400" height="300" fill="#cfdaea"/>
+  <rect x="0" y="110" width="80" height="130" fill="#e8b9a0"/>
+  <rect x="90" y="80" width="90" height="160" fill="#b9cbe0"/>
+  <rect x="320" y="100" width="80" height="140" fill="#e6d29c"/>
+  <rect x="16" y="130" width="20" height="22" fill="#fff6d6"/>
+  <rect x="110" y="100" width="20" height="22" fill="#fff6d6"/>
+  <rect x="140" y="140" width="20" height="22" fill="#fff6d6"/>
+  <rect x="340" y="124" width="20" height="22" fill="#fff6d6"/>
+  <rect y="236" width="400" height="64" fill="#a7b0bb"/>
+  <path d="M0 250 H400" stroke="#f2f2f2" stroke-width="4" stroke-dasharray="24 18"/>
+  <path d="M8 73 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M31 40 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M59 183 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M82 111 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M101 66 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M123 147 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M134 34 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M161 52 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M178 45 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M200 43 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M219 3 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M248 144 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M262 123 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M289 19 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M304 79 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M328 171 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M349 49 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M375 25 l-4 12" stroke="#9cc3e6" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="200" cy="276" rx="70" ry="12" fill="#8fb3dc"/>
+  <path d="M150 266 l-8 -10 M164 262 l-2 -12 M236 262 l2 -12 M250 266 l8 -10" stroke="#8fb3dc" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(215 82) rotate(-10)">
+    <path d="M0 0 L0 82 q0 8 -8 8" stroke="#6b5640" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-72 0 A72 58 0 0 1 72 0 Q54 -6 36 0 Q18 -6 0 0 Q-18 -6 -36 0 Q-54 -6 -72 0 Z" fill="#ffcf3f"/>
+    <path d="M0 -58 Q-24 -24 -36 0 M0 -58 Q24 -24 36 0" stroke="#f0a92a" stroke-width="2" fill="none"/>
+  </g>
+  <g transform="translate(168 236) scale(1.0)">
+    <rect x="-13" y="-32" width="10" height="32" rx="5" fill="#f9d7b8"/>
+    <rect x="3" y="-32" width="10" height="32" rx="5" fill="#f9d7b8"/>
+    <ellipse cx="-8" cy="0" rx="9" ry="5" fill="#d6455f"/>
+    <ellipse cx="8" cy="0" rx="9" ry="5" fill="#d6455f"/>
+    <path d="M-18 -64 L-34 -84" stroke="#f06c8a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-34" cy="-84" r="5.5" fill="#f9d7b8"/>
+    <path d="M18 -64 L40 -62" stroke="#f06c8a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="40" cy="-62" r="5.5" fill="#f9d7b8"/>
+    <path d="M-15 -72 Q0 -78 15 -72 L25 -28 Q0 -22 -25 -28 Z" fill="#f06c8a"/>
+    <circle cx="-27" cy="-98" r="9" fill="#3a2e2a"/>
+    <circle cx="27" cy="-98" r="9" fill="#3a2e2a"/>
+    <circle cx="-22" cy="-106" r="4" fill="#ffcf3f"/>
+    <circle cx="22" cy="-106" r="4" fill="#ffcf3f"/>
+    <circle cx="0" cy="-92" r="22" fill="#f9d7b8"/>
+    <path d="M-23 -90 C-24 -122 24 -122 23 -90 Q12 -102 0 -100 Q-12 -102 -23 -90 Z" fill="#3a2e2a"/>
+    <circle cx="-8" cy="-92" r="2.6" fill="#3a2e2a"/>
+    <circle cx="8" cy="-92" r="2.6" fill="#3a2e2a"/>
+    <circle cx="-13" cy="-84" r="4" fill="#f6a5a0" opacity=".7"/>
+    <circle cx="13" cy="-84" r="4" fill="#f6a5a0" opacity=".7"/>
+    <path d="M-7 -84 Q0 -74 7 -84 Z" fill="#c95454"/>
+  </g>
+  <g transform="translate(240 236) scale(1.0)">
+    <rect x="-13" y="-32" width="10" height="32" rx="5" fill="#f9d7b8"/>
+    <rect x="3" y="-32" width="10" height="32" rx="5" fill="#f9d7b8"/>
+    <ellipse cx="-8" cy="0" rx="9" ry="5" fill="#6a4a8c"/>
+    <ellipse cx="8" cy="0" rx="9" ry="5" fill="#6a4a8c"/>
+    <path d="M-17 -64 L-24 -62" stroke="#5bbf7a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-24" cy="-62" r="5.5" fill="#f9d7b8"/>
+    <path d="M17 -64 L34 -84" stroke="#5bbf7a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="34" cy="-84" r="5.5" fill="#f9d7b8"/>
+    <path d="M-20 -46 L20 -46 L26 -26 L-26 -26 Z" fill="#3f5a8a"/>
+    <rect x="-19" y="-72" width="38" height="30" rx="13" fill="#5bbf7a"/>
+    <path d="M-25 -86 C-28 -124 28 -124 25 -86 L25 -74 Q21 -70 17 -74 L17 -96 Q0 -104 -17 -96 L-17 -74 Q-21 -70 -25 -74 Z" fill="#8a5a3b"/>
+    <circle cx="0" cy="-90" r="19" fill="#f9d7b8"/>
+    <path d="M-19 -94 Q0 -110 19 -94 Q19 -110 0 -112 Q-19 -110 -19 -94 Z" fill="#8a5a3b"/>
+    <circle cx="-8" cy="-90" r="2.6" fill="#3a2e2a"/>
+    <circle cx="8" cy="-90" r="2.6" fill="#3a2e2a"/>
+    <circle cx="-13" cy="-82" r="4" fill="#f6a5a0" opacity=".7"/>
+    <circle cx="13" cy="-82" r="4" fill="#f6a5a0" opacity=".7"/>
+    <path d="M-7 -82 Q0 -72 7 -82 Z" fill="#c95454"/>
+  </g>
+  <path d="M330 60 q10 -4 20 0" stroke="#7a8ba6" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>小黑螞蟻在草地上發現一塊比牠大好多倍的圓餅乾，用力推也推不動。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/>
+      <stop offset="1" stop-color="#e8f7ff"/>
+    </linearGradient>
+    <g id="ant">
+      <g stroke="#3a2a22" stroke-width="2.2" stroke-linecap="round" fill="none">
+        <path d="M-14 6l-5 11M-2 4v13M6 4l6 12"/>
+        <path d="M13-13q-3-9-9-12M18-12q3-10 10-11"/>
+      </g>
+      <circle cx="4" cy="-25" r="2.2"/>
+      <circle cx="28" cy="-23" r="2.2"/>
+      <ellipse cx="-14" cy="0" rx="12" ry="9"/>
+      <circle cx="0" cy="-1" r="6"/>
+      <circle cx="13" cy="-5" r="10"/>
+      <circle cx="16" cy="-8" r="3.4" fill="#fff"/>
+      <circle cx="17" cy="-8" r="1.8" fill="#222"/>
+      <circle cx="19" cy="-2" r="2.2" fill="#f7a1a1"/>
+    </g>
+    <g id="hei">
+      <use href="#ant" fill="#2d2a32"/>
+      <path d="M2-6q6 7 12 2l2 4q-8 6-15 0z" fill="#e8504a"/>
+      <path d="M4-1l-5 9 7-3z" fill="#e8504a"/>
+    </g>
+    <g id="cookie">
+      <circle r="50" fill="#d9994f"/>
+      <circle r="44" fill="#eebc72"/>
+      <g fill="#6b3f26">
+        <ellipse cx="-18" cy="-16" rx="6" ry="4.5"/>
+        <ellipse cx="14" cy="-22" rx="5" ry="4"/>
+        <ellipse cx="20" cy="8" rx="6" ry="4.5"/>
+        <ellipse cx="-10" cy="18" rx="5" ry="4"/>
+        <ellipse cx="-26" cy="4" rx="4" ry="3"/>
+        <ellipse cx="4" cy="-2" rx="4" ry="3"/>
+      </g>
+    </g>
+  </defs>
+
+  <!-- 天空 -->
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <circle cx="60" cy="50" r="26" fill="#ffd95a"/>
+  <circle cx="60" cy="50" r="34" fill="#ffd95a" opacity="0.25"/>
+  <g fill="#fff">
+    <ellipse cx="250" cy="55" rx="40" ry="14"/>
+    <ellipse cx="275" cy="45" rx="24" ry="14"/>
+    <ellipse cx="340" cy="85" rx="28" ry="10"/>
+  </g>
+
+  <!-- 草地 -->
+  <path d="M0 190q100-25 200-5t200-5v120H0z" fill="#8fd16a"/>
+  <path d="M0 230q120-20 230 0t170-5v75H0z" fill="#79c257"/>
+  <g stroke="#5fae45" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M30 270q-3-12 2-20M38 272q2-12 9-18"/>
+    <path d="M360 262q-3-12 2-20M368 264q2-12 9-18"/>
+    <path d="M120 285q-2-10 3-17"/>
+  </g>
+
+  <!-- 小石頭與花 -->
+  <ellipse cx="80" cy="222" rx="22" ry="12" fill="#b9b3ad"/>
+  <ellipse cx="74" cy="217" rx="8" ry="4" fill="#d6d1cc"/>
+  <g transform="translate(355 215)">
+    <path d="M0 0v22" stroke="#5fae45" stroke-width="3"/>
+    <g fill="#ff9ec4">
+      <circle cx="0" cy="-7" r="6"/><circle cx="7" cy="0" r="6"/>
+      <circle cx="0" cy="7" r="6"/><circle cx="-7" cy="0" r="6"/>
+    </g>
+    <circle r="4" fill="#ffd95a"/>
+  </g>
+
+  <!-- 香味 -->
+  <g stroke="#e6a95b" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M250 135q-8-10 0-20t0-20"/>
+    <path d="M285 140q-8-10 0-20t0-20"/>
+  </g>
+
+  <!-- 大餅乾 -->
+  <use href="#cookie" transform="translate(268 205) scale(1.15)"/>
+
+  <!-- 小黑在推 -->
+  <g transform="translate(184 240) scale(1.5)">
+    <use href="#hei"/>
+  </g>
+  <g fill="#7cc6f2">
+    <path d="M196 196q-4 6 0 9q4-3 0-9z"/>
+    <path d="M206 188q-3 5 0 7q3-2 0-7z"/>
+  </g>
+</svg>

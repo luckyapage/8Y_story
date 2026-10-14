@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>紙船載著小青蛙在藍色的大漩渦旁邊，小青蛙伸長後腿用力踢水。</title>
+  <defs>
+    <g id="boat">
+      <path d="M-45,0 L45,0 L30,22 L-30,22 Z" fill="#ffffff" stroke="#9fb4c8" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M-22,0 L0,-38 L22,0 Z" fill="#f4f8fc" stroke="#9fb4c8" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="-12" cy="10" r="5" fill="#fff" stroke="#33415c" stroke-width="1.5"/>
+      <circle cx="12" cy="10" r="5" fill="#fff" stroke="#33415c" stroke-width="1.5"/>
+      <circle cx="-10" cy="10" r="2.5" fill="#33415c"/>
+      <circle cx="14" cy="10" r="2.5" fill="#33415c"/>
+      <path d="M-5,17 L5,17" stroke="#33415c" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- 河水 -->
+  <rect width="400" height="300" fill="#6ec0ea"/>
+
+  <!-- 上方河岸與小黃花 -->
+  <path d="M0,0 L400,0 L400,45 Q200,70 0,45 Z" fill="#9ed67d"/>
+  <g fill="#ffd84d">
+    <circle cx="40" cy="30" r="6"/>
+    <circle cx="95" cy="40" r="5"/>
+    <circle cx="160" cy="28" r="6"/>
+    <circle cx="245" cy="42" r="5"/>
+    <circle cx="310" cy="26" r="6"/>
+    <circle cx="370" cy="38" r="5"/>
+  </g>
+  <g fill="#ff9f43">
+    <circle cx="40" cy="30" r="2"/>
+    <circle cx="160" cy="28" r="2"/>
+    <circle cx="310" cy="26" r="2"/>
+  </g>
+
+  <!-- 大漩渦 -->
+  <g fill="none" stroke-linecap="round">
+    <ellipse cx="250" cy="190" rx="130" ry="70" fill="#4fa6d8"/>
+    <path d="M250,190 m-100,0 a100,52 0 1,1 200,0 a85,42 0 1,1 -170,4 a65,32 0 1,1 130,0 a45,22 0 1,1 -90,2 a25,12 0 1,1 50,0" stroke="#d4f1ff" stroke-width="4"/>
+    <ellipse cx="250" cy="192" rx="14" ry="7" fill="#2f7fb3"/>
+  </g>
+
+  <!-- 水花 -->
+  <g fill="#ffffff">
+    <circle cx="48" cy="232" r="5"/>
+    <circle cx="36" cy="214" r="4"/>
+    <circle cx="58" cy="208" r="3.5"/>
+    <circle cx="30" cy="240" r="3"/>
+  </g>
+
+  <!-- 紙船小白帆，往右傾斜 -->
+  <g transform="translate(120,200) rotate(12)">
+    <use href="#boat"/>
+    <!-- 青蛙呱呱坐在船尾，後腿踢水 -->
+    <g transform="translate(-30,-10)">
+      <path d="M-10,6 Q-28,18 -42,30" fill="none" stroke="#6ab84b" stroke-width="7" stroke-linecap="round"/>
+      <ellipse cx="-44" cy="31" rx="7" ry="4" fill="#6ab84b"/>
+      <ellipse cx="0" cy="0" rx="15" ry="11" fill="#7cc95a"/>
+      <circle cx="-7" cy="-10" r="6" fill="#7cc95a"/>
+      <circle cx="8" cy="-10" r="6" fill="#7cc95a"/>
+      <circle cx="-7" cy="-10" r="3.5" fill="#fff"/>
+      <circle cx="8" cy="-10" r="3.5" fill="#fff"/>
+      <circle cx="-6.5" cy="-10" r="1.8" fill="#2d3a2a"/>
+      <circle cx="8.5" cy="-10" r="1.8" fill="#2d3a2a"/>
+      <ellipse cx="1" cy="3" rx="3.5" ry="2.5" fill="#2d3a2a"/>
+      <circle cx="-10" cy="1" r="2.5" fill="#ffb3b3"/>
+      <circle cx="11" cy="1" r="2.5" fill="#ffb3b3"/>
+    </g>
+  </g>
+
+  <!-- 用力的動作線 -->
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round">
+    <path d="M60,250 l-14,8"/>
+    <path d="M72,262 l-12,10"/>
+  </g>
+</svg>

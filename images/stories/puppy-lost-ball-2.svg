@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <title>小黃在大樹下抬頭問樹枝上的小鳥，旁邊花園裡有一隻小貓躺著曬太陽。</title>
+  <defs>
+    <g id="pup">
+      <path d="M20 34q24-2 22-24" stroke="#e0a94a" stroke-width="8" stroke-linecap="round" fill="none"/>
+      <ellipse cx="0" cy="28" rx="24" ry="24" fill="#f5c869"/>
+      <ellipse cx="0" cy="34" rx="13" ry="15" fill="#fff1d6"/>
+      <ellipse cx="-12" cy="50" rx="9" ry="6" fill="#fff1d6"/>
+      <ellipse cx="12" cy="50" rx="9" ry="6" fill="#fff1d6"/>
+      <path d="M-16 6q16 9 32 0" stroke="#3d8be0" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <circle cx="0" cy="12" r="4" fill="#ffd95a"/>
+      <circle cx="0" cy="-12" r="24" fill="#f5c869"/>
+      <ellipse cx="-0" cy="-2" rx="12" ry="9" fill="#fff1d6"/>
+      <ellipse cx="0" cy="-7" rx="4.5" ry="3.2" fill="#4a3328"/>
+      <circle cx="-14" cy="-3" r="3.5" fill="#f7a1a1"/>
+      <circle cx="14" cy="-3" r="3.5" fill="#f7a1a1"/>
+    </g>
+  </defs>
+
+  <!-- 天空與太陽 -->
+  <rect width="400" height="300" fill="#cdeaff"/>
+  <circle cx="340" cy="50" r="26" fill="#ffd95a"/>
+  <circle cx="340" cy="50" r="36" fill="#ffd95a" opacity="0.25"/>
+
+  <!-- 草地 -->
+  <path d="M0 200q120-20 220-4t180-4v108H0z" fill="#9edb78"/>
+
+  <!-- 大樹 -->
+  <rect x="40" y="110" width="34" height="120" rx="8" fill="#a8744a"/>
+  <path d="M70 140q40-10 80-30" stroke="#a8744a" stroke-width="9" stroke-linecap="round" fill="none"/>
+  <g fill="#5fb85a">
+    <circle cx="35" cy="80" r="40"/>
+    <circle cx="85" cy="60" r="42"/>
+    <circle cx="20" cy="125" r="28"/>
+  </g>
+  <g fill="#77c96a">
+    <circle cx="70" cy="45" r="20"/>
+    <circle cx="25" cy="70" r="16"/>
+  </g>
+
+  <!-- 樹枝上的小鳥 -->
+  <g transform="translate(120 112) scale(-1 1)">
+    <ellipse rx="15" ry="12" fill="#6fb6e8"/>
+    <ellipse cx="2" cy="4" rx="9" ry="6" fill="#d6ecfb"/>
+    <path d="M4-3q14 4 4 12z" fill="#4f98d0"/>
+    <circle cx="-5" cy="-4" r="2.4" fill="#222"/>
+    <path d="M-14-2l-8 3 8 3z" fill="#ffa53a"/>
+    <path d="M-2 11v5M4 11v5" stroke="#ffa53a" stroke-width="2"/>
+  </g>
+  <g stroke="#4f98d0" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M148 98l8-6M150 110l10-1"/>
+  </g>
+
+  <!-- 花園 -->
+  <g transform="translate(230 215)">
+    <path d="M0 0v22M40 -4v26M150 2v20" stroke="#5fae45" stroke-width="3"/>
+    <circle cx="0" cy="-4" r="9" fill="#ff9ec4"/><circle cx="0" cy="-4" r="4" fill="#ffd95a"/>
+    <circle cx="40" cy="-8" r="9" fill="#ffb35c"/><circle cx="40" cy="-8" r="4" fill="#fff4b0"/>
+    <circle cx="150" cy="-2" r="9" fill="#c79bf2"/><circle cx="150" cy="-2" r="4" fill="#ffd95a"/>
+  </g>
+
+  <!-- 躺著曬太陽的小貓 -->
+  <g transform="translate(320 250)">
+    <path d="M40 6q22-2 18-22" stroke="#f4a259" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <ellipse cx="10" cy="6" rx="34" ry="14" fill="#f4a259"/>
+    <path d="M4-6v8M14-7v8M24-5v7" stroke="#d9823a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-38-10l1-15 11 8zM-23-17l9-9 3 14z" fill="#f4a259"/>
+    <circle cx="-26" cy="-2" r="15" fill="#f4a259"/>
+    <path d="M-33-3q3 3 6 0M-23-3q3 3 6 0" stroke="#5a3a24" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M-27 3l2 2 2-2z" fill="#f78a9a"/>
+    <circle cx="-37" cy="3" r="2.5" fill="#f7a1a1"/>
+  </g>
+
+  <!-- 抬頭問問題的小黃 -->
+  <g transform="translate(150 215)">
+    <use href="#pup"/>
+    <ellipse cx="-22" cy="-22" rx="8" ry="15" transform="rotate(35 -22 -22)" fill="#b9783f"/>
+    <ellipse cx="22" cy="-22" rx="8" ry="15" transform="rotate(-35 22 -22)" fill="#b9783f"/>
+    <circle cx="-8" cy="-18" r="3.6" fill="#3a2a22"/>
+    <circle cx="10" cy="-18" r="3.6" fill="#3a2a22"/>
+    <circle cx="-7" cy="-20" r="1.2" fill="#fff"/>
+    <circle cx="11" cy="-20" r="1.2" fill="#fff"/>
+    <ellipse cx="0" cy="4" rx="4" ry="3.5" fill="#e8504a"/>
+  </g>
+</svg>

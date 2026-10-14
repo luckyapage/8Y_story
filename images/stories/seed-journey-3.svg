@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <title>小蒲飄過綠色的山坡，山坡上有牛跟羊，他慢慢落到軟軟的泥土上。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8ecff"/>
+      <stop offset="1" stop-color="#f2fbff"/>
+    </linearGradient>
+    <g id="seed">
+      <path d="M0 -8 L0 -40" stroke="#c9b48a" stroke-width="2"/>
+      <g stroke-linecap="round" fill="none">
+        <path d="M0 -40 L-24 -54 M0 -40 L-16 -64 M0 -40 L-5 -70 M0 -40 L5 -70 M0 -40 L16 -64 M0 -40 L24 -54" stroke="#d3dce8" stroke-width="4"/>
+        <path d="M0 -40 L-24 -54 M0 -40 L-16 -64 M0 -40 L-5 -70 M0 -40 L5 -70 M0 -40 L16 -64 M0 -40 L24 -54" stroke="#ffffff" stroke-width="2"/>
+      </g>
+      <g fill="#ffffff" stroke="#d3dce8">
+        <circle cx="-24" cy="-54" r="4"/><circle cx="-16" cy="-64" r="4"/><circle cx="-5" cy="-70" r="4"/>
+        <circle cx="5" cy="-70" r="4"/><circle cx="16" cy="-64" r="4"/><circle cx="24" cy="-54" r="4"/>
+      </g>
+      <ellipse cx="0" cy="6" rx="12" ry="16" fill="#b07a52"/>
+      <ellipse cx="-4" cy="0" rx="3" ry="5" fill="#c99470"/>
+      <circle cx="-4.5" cy="5" r="2" fill="#3b2a1f"/>
+      <circle cx="4.5" cy="5" r="2" fill="#3b2a1f"/>
+      <circle cx="-7.5" cy="10" r="2.2" fill="#f4a3a3"/>
+      <circle cx="7.5" cy="10" r="2.2" fill="#f4a3a3"/>
+      <path d="M-3 11 Q0 14 3 11" stroke="#3b2a1f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <circle cx="60" cy="55" r="26" fill="#ffe27a"/>
+  <ellipse cx="250" cy="45" rx="38" ry="14" fill="#ffffff"/>
+  <ellipse cx="272" cy="38" rx="20" ry="12" fill="#ffffff"/>
+  <!-- 山坡 -->
+  <path d="M0 180 Q90 90 200 150 Q290 100 400 150 L400 300 L0 300 Z" fill="#a8e08f"/>
+  <path d="M0 230 Q120 180 260 220 Q330 200 400 215 L400 300 L0 300 Z" fill="#86cf6f"/>
+  <!-- 牛 -->
+  <g transform="translate(95 160)">
+    <rect x="-26" y="-14" width="52" height="28" rx="12" fill="#ffffff" stroke="#6b5a4a" stroke-width="2"/>
+    <circle cx="-8" cy="-4" r="6" fill="#6b5a4a"/>
+    <circle cx="12" cy="4" r="5" fill="#6b5a4a"/>
+    <rect x="-20" y="12" width="6" height="12" rx="3" fill="#6b5a4a"/>
+    <rect x="14" y="12" width="6" height="12" rx="3" fill="#6b5a4a"/>
+    <path d="M-30 -24 l3 -7 M-40 -24 l-3 -7" stroke="#c9a46b" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="-34" cy="-14" rx="13" ry="12" fill="#ffffff" stroke="#6b5a4a" stroke-width="2"/>
+    <ellipse cx="-38" cy="-8" rx="8" ry="5" fill="#f7c0c0"/>
+    <circle cx="-36" cy="-18" r="1.8" fill="#3b2a1f"/>
+  </g>
+  <!-- 羊 -->
+  <g transform="translate(330 165)">
+    <rect x="-6" y="12" width="5" height="12" rx="2.5" fill="#5a4a3e"/>
+    <rect x="12" y="12" width="5" height="12" rx="2.5" fill="#5a4a3e"/>
+    <circle cx="-8" cy="0" r="12" fill="#ffffff"/>
+    <circle cx="6" cy="-5" r="13" fill="#ffffff"/>
+    <circle cx="18" cy="2" r="11" fill="#ffffff"/>
+    <circle cx="4" cy="7" r="12" fill="#ffffff"/>
+    <ellipse cx="-22" cy="-6" rx="9" ry="10" fill="#5a4a3e"/>
+    <circle cx="-25" cy="-8" r="1.8" fill="#ffffff"/>
+  </g>
+  <!-- 軟軟的泥土 -->
+  <ellipse cx="215" cy="270" rx="80" ry="18" fill="#9b6b45"/>
+  <ellipse cx="215" cy="265" rx="70" ry="12" fill="#b4825a"/>
+  <!-- 小蒲往下飄 -->
+  <path d="M235 150 Q215 125 235 105 Q252 88 236 66" stroke="#ffffff" stroke-width="3" stroke-dasharray="4 8" fill="none" stroke-linecap="round"/>
+  <use xlink:href="#seed" href="#seed" transform="translate(215 225)"/>
+  <!-- 風 -->
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M140 125 Q160 117 180 123"/>
+  </g>
+</svg>

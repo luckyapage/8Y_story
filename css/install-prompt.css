@@ -1,0 +1,57 @@
+/* ==========================================================
+   install-prompt.css：「加入主畫面」提示列（固定在畫面底部）
+   ========================================================== */
+
+.install-prompt {
+  position: fixed;
+  left: 50%;
+  bottom: calc(12px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  z-index: 40;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  width: calc(100% - 24px);
+  max-width: 620px;
+  padding: 14px 16px;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  border: 3px solid var(--color-primary);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  animation: install-in 0.4s ease-out;
+}
+
+.install-prompt[hidden] {
+  display: none;
+}
+
+.install-prompt-icon {
+  font-size: 32px;
+  color: var(--color-primary);
+}
+
+.install-prompt-text {
+  flex: 1;
+  min-width: 200px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.install-prompt-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+@keyframes install-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 30px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}

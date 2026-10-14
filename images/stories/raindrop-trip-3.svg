@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <title>小滴來到藍藍的大海，太陽照著海面，小滴變輕往天上飄。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd8ff"/>
+      <stop offset="1" stop-color="#fff3d6"/>
+    </linearGradient>
+    <g id="drop">
+      <path d="M0 -26 C6 -16 18 -2 18 10 A18 18 0 0 1 -18 10 C-18 -2 -6 -16 0 -26 Z" fill="#5bb8f0" stroke="#3a9ad6" stroke-width="2"/>
+      <ellipse cx="-9" cy="2" rx="3" ry="6" fill="#ffffff" opacity="0.7"/>
+      <circle cx="-5" cy="9" r="2" fill="#1f3b57"/>
+      <circle cx="5" cy="9" r="2" fill="#1f3b57"/>
+      <circle cx="-9" cy="14" r="2.2" fill="#f4a3b8"/>
+      <circle cx="9" cy="14" r="2.2" fill="#f4a3b8"/>
+      <path d="M-3 15 Q0 18 3 15" stroke="#1f3b57" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <!-- 太陽公公 -->
+  <circle cx="320" cy="62" r="40" fill="#ffd84d" opacity="0.35"/>
+  <circle cx="320" cy="62" r="30" fill="#ffd84d"/>
+  <path d="M308 58 Q312 54 316 58 M324 58 Q328 54 332 58" stroke="#a5671f" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M312 68 Q320 75 328 68" stroke="#a5671f" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="306" cy="67" r="3" fill="#ff9e7a"/>
+  <circle cx="334" cy="67" r="3" fill="#ff9e7a"/>
+  <!-- 大海 -->
+  <path d="M0 170 L400 170 L400 300 L0 300 Z" fill="#4fa8e0"/>
+  <path d="M0 170 Q25 160 50 170 T100 170 T150 170 T200 170 T250 170 T300 170 T350 170 T400 170 L400 185 L0 185 Z" fill="#7cc8f2"/>
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M40 210 Q55 204 70 210"/>
+    <path d="M150 235 Q165 229 180 235"/>
+    <path d="M300 215 Q315 209 330 215"/>
+  </g>
+  <!-- 沙灘 -->
+  <path d="M0 255 Q60 240 140 262 Q120 285 0 300 Z" fill="#f5dfa8"/>
+  <!-- 海龜 -->
+  <g transform="translate(300 250)">
+    <ellipse cx="-24" cy="2" rx="9" ry="7" fill="#8fd17a"/>
+    <ellipse cx="0" cy="0" rx="22" ry="14" fill="#5aa86a"/>
+    <path d="M-10 -6 L0 -10 L10 -6 L10 4 L0 8 L-10 4 Z" fill="#7cc48a"/>
+    <circle cx="-27" cy="0" r="1.8" fill="#1f3b57"/>
+    <ellipse cx="-12" cy="13" rx="6" ry="3" fill="#8fd17a"/>
+    <ellipse cx="12" cy="13" rx="6" ry="3" fill="#8fd17a"/>
+  </g>
+  <!-- 小魚 -->
+  <g transform="translate(200 268)">
+    <ellipse cx="0" cy="0" rx="14" ry="8" fill="#ffa86b"/>
+    <path d="M12 0 L22 -7 L22 7 Z" fill="#ff8f4a"/>
+    <circle cx="-6" cy="-2" r="2" fill="#1f3b57"/>
+  </g>
+  <!-- 往上飄的水蒸氣 -->
+  <g stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8">
+    <path d="M150 165 Q140 150 150 135 Q160 120 150 105"/>
+    <path d="M230 165 Q220 150 230 135 Q240 120 230 105"/>
+    <path d="M90 165 Q80 152 90 140"/>
+  </g>
+  <!-- 小滴變輕了 -->
+  <use xlink:href="#drop" href="#drop" transform="translate(190 110)" opacity="0.75"/>
+  <circle cx="160" cy="80" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="222" cy="70" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="200" cy="60" r="2.5" fill="#ffffff" opacity="0.8"/>
+</svg>

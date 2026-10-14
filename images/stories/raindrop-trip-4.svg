@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <title>小滴回到高高的白雲上，跟許多雨滴朋友開心地轉圈圈。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fcfff"/>
+      <stop offset="1" stop-color="#e3f4ff"/>
+    </linearGradient>
+    <g id="drop">
+      <path d="M0 -26 C6 -16 18 -2 18 10 A18 18 0 0 1 -18 10 C-18 -2 -6 -16 0 -26 Z" fill="#5bb8f0" stroke="#3a9ad6" stroke-width="2"/>
+      <ellipse cx="-9" cy="2" rx="3" ry="6" fill="#ffffff" opacity="0.7"/>
+      <circle cx="-5" cy="9" r="2" fill="#1f3b57"/>
+      <circle cx="5" cy="9" r="2" fill="#1f3b57"/>
+      <circle cx="-9" cy="14" r="2.2" fill="#f4a3b8"/>
+      <circle cx="9" cy="14" r="2.2" fill="#f4a3b8"/>
+      <path d="M-3 15 Q0 18 3 15" stroke="#1f3b57" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <!-- 下方的大地與大海 -->
+  <path d="M0 250 Q60 215 120 245 Q170 220 210 250 L210 300 L0 300 Z" fill="#9fdc8a"/>
+  <path d="M210 250 L400 250 L400 300 L210 300 Z" fill="#4fa8e0"/>
+  <path d="M210 250 Q240 243 270 250 T330 250 T400 250 L400 258 L210 258 Z" fill="#7cc8f2"/>
+  <path d="M60 300 Q90 270 140 268 Q190 266 215 255" stroke="#7cc8f2" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- 水循環的箭頭 -->
+  <g stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="2 10" opacity="0.9">
+    <path d="M330 240 Q370 170 320 130"/>
+    <path d="M80 135 Q30 180 70 240"/>
+  </g>
+  <path d="M312 126 L326 124 L322 138 Z" fill="#ffffff"/>
+  <path d="M64 246 L76 238 L78 252 Z" fill="#ffffff"/>
+  <!-- 白雲 -->
+  <g fill="#ffffff">
+    <circle cx="130" cy="110" r="38"/>
+    <circle cx="190" cy="85" r="50"/>
+    <circle cx="255" cy="100" r="42"/>
+    <circle cx="300" cy="118" r="28"/>
+    <rect x="100" y="110" width="220" height="40" rx="20"/>
+  </g>
+  <!-- 雨滴好朋友 -->
+  <use xlink:href="#drop" href="#drop" transform="translate(140 120) scale(0.6) rotate(-15)"/>
+  <use xlink:href="#drop" href="#drop" transform="translate(250 118) scale(0.6) rotate(15)"/>
+  <use xlink:href="#drop" href="#drop" transform="translate(290 130) scale(0.5)"/>
+  <!-- 小滴開心地轉圈圈 -->
+  <path d="M170 80 A30 14 0 1 0 230 80" stroke="#ffd84d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <use xlink:href="#drop" href="#drop" transform="translate(200 98) scale(1.1)"/>
+  <g fill="#ffd84d">
+    <path d="M160 50 l3 -7 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 Z"/>
+    <path d="M240 46 l2 -5 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 Z"/>
+  </g>
+</svg>

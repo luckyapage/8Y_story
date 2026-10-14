@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <title>小蒲撐著白色的小傘飛過亮晶晶的小河，小魚從水裡跳起來跟他說話。</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe6ff"/>
+      <stop offset="1" stop-color="#eaf7ff"/>
+    </linearGradient>
+    <g id="seed">
+      <path d="M0 -8 L0 -40" stroke="#c9b48a" stroke-width="2"/>
+      <g stroke-linecap="round" fill="none">
+        <path d="M0 -40 L-24 -54 M0 -40 L-16 -64 M0 -40 L-5 -70 M0 -40 L5 -70 M0 -40 L16 -64 M0 -40 L24 -54" stroke="#d3dce8" stroke-width="4"/>
+        <path d="M0 -40 L-24 -54 M0 -40 L-16 -64 M0 -40 L-5 -70 M0 -40 L5 -70 M0 -40 L16 -64 M0 -40 L24 -54" stroke="#ffffff" stroke-width="2"/>
+      </g>
+      <g fill="#ffffff" stroke="#d3dce8">
+        <circle cx="-24" cy="-54" r="4"/><circle cx="-16" cy="-64" r="4"/><circle cx="-5" cy="-70" r="4"/>
+        <circle cx="5" cy="-70" r="4"/><circle cx="16" cy="-64" r="4"/><circle cx="24" cy="-54" r="4"/>
+      </g>
+      <ellipse cx="0" cy="6" rx="12" ry="16" fill="#b07a52"/>
+      <ellipse cx="-4" cy="0" rx="3" ry="5" fill="#c99470"/>
+      <circle cx="-4.5" cy="5" r="2" fill="#3b2a1f"/>
+      <circle cx="4.5" cy="5" r="2" fill="#3b2a1f"/>
+      <circle cx="-7.5" cy="10" r="2.2" fill="#f4a3a3"/>
+      <circle cx="7.5" cy="10" r="2.2" fill="#f4a3a3"/>
+      <path d="M-3 11 Q0 14 3 11" stroke="#3b2a1f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <ellipse cx="320" cy="50" rx="44" ry="16" fill="#ffffff"/>
+  <ellipse cx="295" cy="42" rx="24" ry="14" fill="#ffffff"/>
+  <path d="M0 170 Q100 150 200 165 T400 160 L400 300 L0 300 Z" fill="#9fdc8a"/>
+  <!-- 小河 -->
+  <path d="M0 215 Q100 195 200 212 T400 205 L400 265 Q300 255 200 268 T0 262 Z" fill="#7cc8f2"/>
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M40 228 Q55 223 70 228"/>
+    <path d="M250 240 Q265 235 280 240"/>
+    <path d="M330 222 Q345 217 360 222"/>
+  </g>
+  <g fill="#ffffff">
+    <path d="M120 240 l3 -7 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 Z"/>
+    <path d="M300 255 l2 -5 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 Z"/>
+  </g>
+  <!-- 河邊的樹 -->
+  <rect x="44" y="120" width="12" height="60" rx="5" fill="#a5754e"/>
+  <circle cx="50" cy="110" r="34" fill="#6fbf5a"/>
+  <circle cx="30" cy="125" r="20" fill="#6fbf5a"/>
+  <circle cx="70" cy="125" r="20" fill="#6fbf5a"/>
+  <!-- 小魚跳出水面 -->
+  <g transform="translate(215 200) rotate(-25)">
+    <ellipse cx="0" cy="0" rx="22" ry="13" fill="#ffa86b"/>
+    <path d="M18 0 L34 -11 L34 11 Z" fill="#ff8f4a"/>
+    <circle cx="-10" cy="-3" r="3" fill="#3b2a1f"/>
+    <path d="M-20 4 Q-15 7 -11 4" stroke="#3b2a1f" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="236" cy="220" r="4"/>
+    <circle cx="248" cy="212" r="3"/>
+    <circle cx="198" cy="222" r="3"/>
+  </g>
+  <!-- 小蒲跟兄姊 -->
+  <use xlink:href="#seed" href="#seed" transform="translate(255 125) rotate(-8)"/>
+  <use xlink:href="#seed" href="#seed" transform="translate(115 75) scale(0.55) rotate(15)" opacity="0.85"/>
+  <use xlink:href="#seed" href="#seed" transform="translate(360 120) scale(0.5) rotate(-15)" opacity="0.85"/>
+  <!-- 風 -->
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M160 110 Q185 100 210 108"/>
+    <path d="M170 130 Q190 122 212 128"/>
+  </g>
+</svg>

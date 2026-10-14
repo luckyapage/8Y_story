@@ -1,0 +1,68 @@
+/* ==========================================================
+   reading-timer.css：頁首的每日閱讀進度條與連續天數
+   ========================================================== */
+
+.reading-timer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+/* 連續天數（火焰圖示） */
+.timer-streak {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  flex-shrink: 0;
+}
+
+.timer-streak i {
+  color: #ff6a2b;
+  font-size: 20px;
+}
+
+.timer-progress {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.timer-bar {
+  flex: 1;
+  min-width: 48px;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--color-surface-alt);
+  border: 2px solid var(--color-border);
+  overflow: hidden;
+}
+
+.timer-bar-fill {
+  height: 100%;
+  width: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ffc65c, var(--color-primary));
+  transition: width 0.6s ease-out;
+}
+
+.timer-label {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-text-soft);
+  white-space: nowrap;
+}
+
+/* 達成目標：進度條變綠色 */
+.reading-timer.is-done .timer-bar-fill {
+  background: linear-gradient(90deg, #8be08f, var(--color-success));
+}
+
+.reading-timer.is-done .timer-label {
+  color: var(--color-success);
+}

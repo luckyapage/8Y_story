@@ -1,0 +1,34 @@
+[
+  {
+    "id": "animals",
+    "name": "動物朋友",
+    "zhuyin": ["ㄉㄨㄥˋ", "ㄨˋ", "ㄆㄥˊ", "ㄧㄡˇ"],
+    "icon": "fa-paw",
+    "color": "#f08c2e",
+    "stories": ["little-ant-team", "puppy-lost-ball"]
+  },
+  {
+    "id": "nature",
+    "name": "大自然",
+    "zhuyin": ["ㄉㄚˋ", "ㄗˋ", "ㄖㄢˊ"],
+    "icon": "fa-leaf",
+    "color": "#3fa34d",
+    "stories": ["seed-journey", "raindrop-trip"]
+  },
+  {
+    "id": "manners",
+    "name": "生活禮貌",
+    "zhuyin": ["ㄕㄥ", "ㄏㄨㄛˊ", "ㄌㄧˇ", "ㄇㄠˋ"],
+    "icon": "fa-heart",
+    "color": "#e5578a",
+    "stories": ["magic-words", "share-umbrella"]
+  },
+  {
+    "id": "fantasy",
+    "name": "奇幻冒險",
+    "zhuyin": ["ㄑㄧˊ", "ㄏㄨㄢˋ", "ㄇㄠˋ", "ㄒㄧㄢˇ"],
+    "icon": "fa-wand-magic-sparkles",
+    "color": "#7b5cd6",
+    "stories": ["paper-boat", "star-train"]
+  }
+]
